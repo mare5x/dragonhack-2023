@@ -84,13 +84,6 @@ def getRelevantPhotos(task):
 	for image in images:
 		## prepare inputs
 		encoding = processor(Image.open(f"webcam_images/{image}.jpg"),task.get("question"), return_tensors="pt")
-		outputs = model(**encoding)
-		logits = outputs.logits
-		idx = logits.argmax(-1).item()
-		print("Predicted answer:", model.config.id2label[idx])
-		idx = logits.argmax(-2).item()
-		print("Predicted answer:", model.config.id2label[idx])
-		idx = logits.argmax(-3).item()
-		print("Predicted answer:", model.config.id2label[idx])
+		
 
 getRelevantPhotos(task)
