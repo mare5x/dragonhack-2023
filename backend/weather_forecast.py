@@ -5,7 +5,7 @@ import asyncio
 def classify_rainfall(mmph):
    #Slight rain: Less than 0.5 mm per hour. Moderate rain: Greater than 0.5 mm per hour, but less than 4.0 mm per hour. 
    #Heavy rain: Greater than 4 mm per hour, but less than 8 mm per hour. Very heavy rain: Greater than 8 mm per hour.
-    if mmph < 0.05:
+    if mmph < 0.1:
         return "No rain"
     if mmph < 0.5:
         return "Slight rain"
@@ -20,12 +20,16 @@ async def getweather(city):
     # declare the client. the measuring unit used defaults to the metric system (celcius, km/h, etc.)
     async with python_weather.Client(unit=python_weather.METRIC) as client:
         # fetch a weather forecast from specified location
-        weather = await client.get(city)
+        weather = await client.get(city,locale="sl_SI")
 
         # returns the current day's forecast temperature (int)
         print(str(weather.current.temperature)+"°C" + " (feels like " + str(weather.current.feels_like)+"°C)")
         print(classify_rainfall(weather.current.precipitation))
         print(weather.current.kind)
+        print(weather.forecasts)
+        forecast = list(weather.forecasts)[0]
+        for hourly in forecast.hourly:
+            print(f' --> {hourly!r}')
     
         
 
@@ -36,4 +40,4 @@ if __name__ == '__main__':
   if os.name == 'nt':
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
   
-  asyncio.run(getweather("Dolenje pri Ajdovščini"))
+  asyncio.run(getweather("Nanos"))
