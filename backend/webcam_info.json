@@ -7,7 +7,7 @@
         ],
         "direction": "nw",
         "region": "SI_GORISKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/AJDOV-INA_DOLENJE_dir/siwc_20230513-1400_AJDOV-INA_DOLENJE_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/AJDOV-INA_DOLENJE_dir/siwc_20230513-1440_AJDOV-INA_DOLENJE_nw.jpg"
     },
     "METEO-1403_": {
         "location": "Blegoš",
@@ -17,7 +17,7 @@
         ],
         "direction": "ne",
         "region": "SI_GORENJSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/BLEGOS_dir/siwc_20230513-1400_BLEGOS_ne.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/BLEGOS_dir/siwc_20230513-1440_BLEGOS_ne.jpg"
     },
     "METEO-1030_": {
         "location": "Bovec",
@@ -27,7 +27,7 @@
         ],
         "direction": "n",
         "region": "SI_BOVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/BOVEC_dir/siwc_20230513-1400_BOVEC_n.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/BOVEC_dir/siwc_20230513-1440_BOVEC_n.jpg"
     },
     "METEO-1025_": {
         "location": "Celje",
@@ -37,17 +37,7 @@
         ],
         "direction": "n",
         "region": "SI_SAVINJSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/CELJE_MEDLOG_dir/siwc_20230513-1400_CELJE_MEDLOG_n.jpg"
-    },
-    "METEO-1407_": {
-        "location": "Cerkniško jezero",
-        "coordinates": [
-            14.398944,
-            45.722965
-        ],
-        "direction": "s",
-        "region": "SI_NOTRANJSKO-KRASKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/CERKN-JEZ_dir/siwc_20230513-1140_CERKN-JEZ_s.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/CELJE_MEDLOG_dir/siwc_20230513-1440_CELJE_MEDLOG_n.jpg"
     },
     "METEO-1415_": {
         "location": "Hočko Pohorje",
@@ -57,7 +47,7 @@
         ],
         "direction": "n",
         "region": "SI_PODRAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/HOCKO-POH_dir/siwc_20230513-1400_HOCKO-POH_n.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/HOCKO-POH_dir/siwc_20230513-1440_HOCKO-POH_n.jpg"
     },
     "METEO-1420_": {
         "location": "Jeruzalem",
@@ -67,7 +57,7 @@
         ],
         "direction": "sw",
         "region": "SI_POMURSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/JERUZ-LEM_dir/siwc_20230513-1400_JERUZ-LEM_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/JERUZ-LEM_dir/siwc_20230513-1440_JERUZ-LEM_sw.jpg"
     },
     "METEO-1424_": {
         "location": "Kanin",
@@ -77,7 +67,7 @@
         ],
         "direction": "sw",
         "region": "SI_BOVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KANIN_dir/siwc_20230513-1400_KANIN_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KANIN_dir/siwc_20230513-1440_KANIN_sw.jpg"
     },
     "METEO-1038_": {
         "location": "Koper",
@@ -87,7 +77,7 @@
         ],
         "direction": "e",
         "region": "SI_OBALNO-KRASKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KOPER_MARKOVEC_dir/siwc_20230513-1400_KOPER_MARKOVEC_e.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KOPER_MARKOVEC_dir/siwc_20230513-1440_KOPER_MARKOVEC_e.jpg"
     },
     "METEO-1428_": {
         "location": "Korensko sedlo",
@@ -97,7 +87,7 @@
         ],
         "direction": "s",
         "region": "SI_ZGORNJESAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KOREN-SED_dir/siwc_20230513-1400_KOREN-SED_s.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KOREN-SED_dir/siwc_20230513-1440_KOREN-SED_s.jpg"
     },
     "METEO-1430_": {
         "location": "Kredarica",
@@ -107,7 +97,7 @@
         ],
         "direction": "se",
         "region": "SI_ZGORNJESAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KREDA-ICA_dir/siwc_20230513-1400_KREDA-ICA_se.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KREDA-ICA_dir/siwc_20230513-1440_KREDA-ICA_se.jpg"
     },
     "METEO-1431_": {
         "location": "Krn",
@@ -117,7 +107,7 @@
         ],
         "direction": "n",
         "region": "SI_BOVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KRN_dir/siwc_20230513-1400_KRN_n.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KRN_dir/siwc_20230513-1440_KRN_n.jpg"
     },
     "METEO-1432_": {
         "location": "Krvavec",
@@ -127,7 +117,7 @@
         ],
         "direction": "s",
         "region": "SI_GORENJSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KRVAVEC_dir/siwc_20230513-1400_KRVAVEC_s.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KRVAVEC_dir/siwc_20230513-1440_KRVAVEC_s.jpg"
     },
     "METEO-1434_": {
         "location": "Kum",
@@ -137,7 +127,7 @@
         ],
         "direction": "nw",
         "region": "SI_OSREDNJESLOVENSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KUM_dir/siwc_20230513-1400_KUM_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KUM_dir/siwc_20230513-1440_KUM_nw.jpg"
     },
     "METEO-1435_": {
         "location": "Lisca",
@@ -147,7 +137,7 @@
         ],
         "direction": "w",
         "region": "SI_SPODNJEPOSAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LISCA_dir/siwc_20230513-1400_LISCA_w.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LISCA_dir/siwc_20230513-1440_LISCA_w.jpg"
     },
     "METEO-1495_": {
         "location": "Ljubljana",
@@ -157,7 +147,7 @@
         ],
         "direction": "nw",
         "region": "SI_OSREDNJESLOVENSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LJUBL-ANA_BEZIGRAD_dir/siwc_20230513-1400_LJUBL-ANA_BEZIGRAD_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LJUBL-ANA_BEZIGRAD_dir/siwc_20230513-1440_LJUBL-ANA_BEZIGRAD_nw.jpg"
     },
     "METEO-1493_": {
         "location": "Letališče Jožeta Pučnika Ljubljana",
@@ -167,7 +157,7 @@
         ],
         "direction": "nw",
         "region": "SI_GORENJSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LJUBL-ANA_BRNIK_dir/siwc_20230513-1400_LJUBL-ANA_BRNIK_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LJUBL-ANA_BRNIK_dir/siwc_20230513-1440_LJUBL-ANA_BRNIK_nw.jpg"
     },
     "METEO-1437_": {
         "location": "Logarska dolina",
@@ -177,7 +167,7 @@
         ],
         "direction": "n",
         "region": "SI_KOROSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LOGAR-DOL_dir/siwc_20230513-1400_LOGAR-DOL_n.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LOGAR-DOL_dir/siwc_20230513-1440_LOGAR-DOL_n.jpg"
     },
     "METEO-1023_": {
         "location": "Letališče Edvarda Rusjana Maribor",
@@ -187,7 +177,7 @@
         ],
         "direction": "nw",
         "region": "SI_PODRAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MARIBOR_SLIVNICA_dir/siwc_20230513-1400_MARIBOR_SLIVNICA_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MARIBOR_SLIVNICA_dir/siwc_20230513-1440_MARIBOR_SLIVNICA_nw.jpg"
     },
     "METEO-1491_": {
         "location": "Maribor",
@@ -197,7 +187,7 @@
         ],
         "direction": "sw",
         "region": "SI_PODRAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MARIBOR_VRBAN-PLA_dir/siwc_20230513-1400_MARIBOR_VRBAN-PLA_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MARIBOR_VRBAN-PLA_dir/siwc_20230513-1440_MARIBOR_VRBAN-PLA_sw.jpg"
     },
     "METEO-1443_": {
         "location": "Miklavž na Gorjancih",
@@ -207,7 +197,7 @@
         ],
         "direction": "e",
         "region": "SI_SPODNJEPOSAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MIKLAVZ_NA-GOR_dir/siwc_20230513-1400_MIKLAVZ_NA-GOR_e.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MIKLAVZ_NA-GOR_dir/siwc_20230513-1440_MIKLAVZ_NA-GOR_e.jpg"
     },
     "METEO-1444_": {
         "location": "Murska Sobota",
@@ -217,7 +207,7 @@
         ],
         "direction": "nw",
         "region": "SI_POMURSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MURSK-SOB_dir/siwc_20230513-1400_MURSK-SOB_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MURSK-SOB_dir/siwc_20230513-1440_MURSK-SOB_nw.jpg"
     },
     "METEO-1445_": {
         "location": "Nanos",
@@ -227,7 +217,7 @@
         ],
         "direction": "sw",
         "region": "SI_NOTRANJSKO-KRASKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/NANOS_dir/siwc_20230513-1400_NANOS_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/NANOS_dir/siwc_20230513-1440_NANOS_sw.jpg"
     },
     "METEO-1402_": {
         "location": "Bilje pri Novi Gorici",
@@ -237,7 +227,7 @@
         ],
         "direction": "nw",
         "region": "SI_GORISKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/NOVA-GOR_BILJE_dir/siwc_20230513-1400_NOVA-GOR_BILJE_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/NOVA-GOR_BILJE_dir/siwc_20230513-1440_NOVA-GOR_BILJE_nw.jpg"
     },
     "METEO-1447_": {
         "location": "Novo mesto",
@@ -247,7 +237,7 @@
         ],
         "direction": "w",
         "region": "SI_DOLENJSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/NOVO-MES_dir/siwc_20230513-1400_NOVO-MES_w.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/NOVO-MES_dir/siwc_20230513-1440_NOVO-MES_w.jpg"
     },
     "METEO-3424_": {
         "location": "Otlica",
@@ -257,7 +247,7 @@
         ],
         "direction": "s",
         "region": "SI_GORISKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/OTLICA_dir/siwc_20230513-1400_OTLICA_s.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/OTLICA_dir/siwc_20230513-1440_OTLICA_s.jpg"
     },
     "METEO-1449_": {
         "location": "Pasja ravan",
@@ -267,7 +257,7 @@
         ],
         "direction": "w",
         "region": "SI_GORENJSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PASJA-RAV_dir/siwc_20230513-1400_PASJA-RAV_w.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PASJA-RAV_dir/siwc_20230513-1440_PASJA-RAV_w.jpg"
     },
     "METEO-1450_": {
         "location": "Pavličevo sedlo",
@@ -277,7 +267,7 @@
         ],
         "direction": "ne",
         "region": "SI_KOROSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PAVLI-SED_dir/siwc_20230513-1400_PAVLI-SED_ne.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PAVLI-SED_dir/siwc_20230513-1440_PAVLI-SED_ne.jpg"
     },
     "METEO-1452_": {
         "location": "Planina v Podbočju",
@@ -287,7 +277,7 @@
         ],
         "direction": "e",
         "region": "SI_SPODNJEPOSAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PLANINA_V-POD_dir/siwc_20230513-1400_PLANINA_V-POD_e.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PLANINA_V-POD_dir/siwc_20230513-1440_PLANINA_V-POD_e.jpg"
     },
     "METEO-1008_": {
         "location": "Letališče Portorož",
@@ -297,7 +287,7 @@
         ],
         "direction": "nw",
         "region": "SI_OBALNO-KRASKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PORTOROZ_SECOVLJE_dir/siwc_20230513-1400_PORTOROZ_SECOVLJE_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PORTOROZ_SECOVLJE_dir/siwc_20230513-1440_PORTOROZ_SECOVLJE_nw.jpg"
     },
     "METEO-1455_": {
         "location": "Postojna",
@@ -307,7 +297,7 @@
         ],
         "direction": "w",
         "region": "SI_NOTRANJSKO-KRASKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/POSTOJNA_dir/siwc_20230513-1350_POSTOJNA_w.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/POSTOJNA_dir/siwc_20230513-1430_POSTOJNA_w.jpg"
     },
     "METEO-1456_": {
         "location": "Predel",
@@ -317,7 +307,7 @@
         ],
         "direction": "w",
         "region": "SI_BOVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PREDEL_dir/siwc_20230513-1400_PREDEL_w.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PREDEL_dir/siwc_20230513-1440_PREDEL_w.jpg"
     },
     "METEO-1457_": {
         "location": "Ptuj",
@@ -327,7 +317,7 @@
         ],
         "direction": "sw",
         "region": "SI_PODRAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PTUJ_dir/siwc_20230513-1400_PTUJ_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PTUJ_dir/siwc_20230513-1440_PTUJ_sw.jpg"
     },
     "METEO-1413_": {
         "location": "Radegunda",
@@ -337,17 +327,7 @@
         ],
         "direction": "sw",
         "region": "SI_SAVINJSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/RADEG-NDA_dir/siwc_20230513-1400_RADEG-NDA_sw.jpg"
-    },
-    "METEO-1458_": {
-        "location": "Ratitovec",
-        "coordinates": [
-            14.090107,
-            46.236107
-        ],
-        "direction": "se",
-        "region": "SI_GORENJSKA_",
-        "cam_url": null
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/RADEG-NDA_dir/siwc_20230513-1440_RADEG-NDA_sw.jpg"
     },
     "METEO-1462_": {
         "location": "Rogla",
@@ -357,7 +337,7 @@
         ],
         "direction": "sw",
         "region": "SI_PODRAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ROGLA_dir/siwc_20230513-1400_ROGLA_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ROGLA_dir/siwc_20230513-1440_ROGLA_sw.jpg"
     },
     "METEO-1463_": {
         "location": "Rudno polje",
@@ -367,7 +347,7 @@
         ],
         "direction": "s",
         "region": "SI_ZGORNJESAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/RUDNO-POL_dir/siwc_20230513-1400_RUDNO-POL_s.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/RUDNO-POL_dir/siwc_20230513-1440_RUDNO-POL_s.jpg"
     },
     "METEO-1482_": {
         "location": "Šebreljski vrh",
@@ -377,7 +357,7 @@
         ],
         "direction": "ne",
         "region": "SI_BOVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SEBRE-VRH_dir/siwc_20230513-1400_SEBRE-VRH_ne.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SEBRE-VRH_dir/siwc_20230513-1440_SEBRE-VRH_ne.jpg"
     },
     "METEO-1466_": {
         "location": "Slavnik",
@@ -387,7 +367,7 @@
         ],
         "direction": "sw",
         "region": "SI_OBALNO-KRASKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SLAVNIK_dir/siwc_20230513-1400_SLAVNIK_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SLAVNIK_dir/siwc_20230513-1440_SLAVNIK_sw.jpg"
     },
     "METEO-1471_": {
         "location": "Šmartno pri Slovenj Gradcu",
@@ -397,7 +377,7 @@
         ],
         "direction": "nw",
         "region": "SI_KOROSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SLOVE-GRA_dir/siwc_20230513-1400_SLOVE-GRA_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SLOVE-GRA_dir/siwc_20230513-1440_SLOVE-GRA_nw.jpg"
     },
     "METEO-1470_": {
         "location": "Sviščaki",
@@ -407,7 +387,7 @@
         ],
         "direction": "ne",
         "region": "SI_NOTRANJSKO-KRASKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SVISCAKI_dir/siwc_20230513-1400_SVISCAKI_ne.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SVISCAKI_dir/siwc_20230513-1440_SVISCAKI_ne.jpg"
     },
     "METEO-1473_": {
         "location": "Tolmin - Volče",
@@ -417,7 +397,7 @@
         ],
         "direction": "nw",
         "region": "SI_BOVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/TOLMIN_VOLCE_dir/siwc_20230513-1350_TOLMIN_VOLCE_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/TOLMIN_VOLCE_dir/siwc_20230513-1430_TOLMIN_VOLCE_nw.jpg"
     },
     "METEO-1468_": {
         "location": "Trije Kralji na Pohorju",
@@ -427,7 +407,7 @@
         ],
         "direction": "ne",
         "region": "SI_PODRAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/TRIJE-KRA_NA-POH_dir/siwc_20230513-1400_TRIJE-KRA_NA-POH_ne.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/TRIJE-KRA_NA-POH_dir/siwc_20230513-1440_TRIJE-KRA_NA-POH_ne.jpg"
     },
     "METEO-1476_": {
         "location": "Trojane - Limovce",
@@ -437,7 +417,7 @@
         ],
         "direction": "nw",
         "region": "SI_SAVINJSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/TROJANE_LIMOVCE_dir/siwc_20230513-1400_TROJANE_LIMOVCE_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/TROJANE_LIMOVCE_dir/siwc_20230513-1440_TROJANE_LIMOVCE_nw.jpg"
     },
     "METEO-1477_": {
         "location": "Uršlja gora",
@@ -447,7 +427,7 @@
         ],
         "direction": "nw",
         "region": "SI_KOROSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/URSLJ-GOR_dir/siwc_20230513-1400_URSLJ-GOR_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/URSLJ-GOR_dir/siwc_20230513-1440_URSLJ-GOR_nw.jpg"
     },
     "METEO-1481_": {
         "location": "Vogel",
@@ -457,7 +437,7 @@
         ],
         "direction": "e",
         "region": "SI_ZGORNJESAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/VOGEL_dir/siwc_20230513-1400_VOGEL_e.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/VOGEL_dir/siwc_20230513-1440_VOGEL_e.jpg"
     },
     "METEO-1483_": {
         "location": "Vrhnika",
@@ -467,7 +447,7 @@
         ],
         "direction": "se",
         "region": "SI_OSREDNJESLOVENSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/VRHNIKA_dir/siwc_20230513-1400_VRHNIKA_se.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/VRHNIKA_dir/siwc_20230513-1440_VRHNIKA_se.jpg"
     },
     "METEO-1484_": {
         "location": "Vršič",
@@ -477,7 +457,7 @@
         ],
         "direction": "ne",
         "region": "SI_ZGORNJESAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/VRSIC_dir/siwc_20230513-1400_VRSIC_ne.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/VRSIC_dir/siwc_20230513-1440_VRSIC_ne.jpg"
     },
     "METEO-1486_": {
         "location": "Zelenica",
@@ -487,7 +467,7 @@
         ],
         "direction": "w",
         "region": "SI_ZGORNJESAVSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ZELENICA_dir/siwc_20230513-1400_ZELENICA_w.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ZELENICA_dir/siwc_20230513-1440_ZELENICA_w.jpg"
     },
     "METEO-1459_": {
         "location": "Zgornja Kapla",
@@ -497,7 +477,7 @@
         ],
         "direction": "e",
         "region": "SI_KOROSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ZGORN-KAP_dir/siwc_20230513-1400_ZGORN-KAP_e.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ZGORN-KAP_dir/siwc_20230513-1440_ZGORN-KAP_e.jpg"
     },
     "METEO-1488_": {
         "location": "Zgornja Sorica",
@@ -507,6 +487,6 @@
         ],
         "direction": "sw",
         "region": "SI_GORENJSKA_",
-        "cam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ZGORN-SOR_dir/siwc_20230513-1400_ZGORN-SOR_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ZGORN-SOR_dir/siwc_20230513-1440_ZGORN-SOR_sw.jpg"
     }
 }

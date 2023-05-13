@@ -5,6 +5,9 @@ LINK_PREFIX = "https://vreme.arso.gov.si"
 
 
 def save_image(image_url, image_id):
+    """ save image from url to disk
+    :param image_url: url of image to save
+    :param image_id: id of image to save (used as filename)"""
     try:
         img_data = requests.get(image_url).content
         with open(f'webcam_images/{image_id}.jpg', 'wb') as handler:
@@ -14,47 +17,53 @@ def save_image(image_url, image_id):
 
 
 def create_webcam_json():
-    webcam_list_url = "https://vreme.arso.gov.si/api/1.0/webcam_list/"
-    text = requests.get(webcam_list_url).text
-    webcam_info = json.loads(text)
-    webcam_list = webcam_info["webcam_list"]["features"]
+    """ create json file with information about webcams as a dictionary where each webcam has the
+    following structure:
+    "webcam_id": {
+        "location": location of the webcam,
+        "coordinates": latitude and longitude of the webcam,
+        "direction": direction of the webcam,
+        "region": region of the webcam,
+        "webcam_url": url to latest available image from the webcam
+    } """
+    webcam_list_url = LINK_PREFIX + "/api/1.0/webcam_list/"
+    scraped_text = requests.get(webcam_list_url).text
+    scraped_json = json.loads(scraped_text)
+    webcam_list = scraped_json["webcam_list"]["features"]
 
     webcam_json = {}
 
-    for wl in webcam_list:
-        location = wl["properties"]["title"]
-        coordinates = wl["geometry"]["coordinates"]
-        direction = wl["properties"]["directions"][0]
-        location_id = wl["properties"]["id"]
-        region = wl["properties"]["parent_id"]
+    for webcam in webcam_list:
+        direction = webcam["properties"]["directions"][0]
+        location_id = webcam["properties"]["id"]
 
-
-        key = f"webcam_{location_id}{direction}_data.json"
-        camera = webcam_info.get(key)
-
-        cam_url = None
+        # get link to the latest image from the webcam
+        dict_key = f"webcam_{location_id}{direction}_data.json"
+        camera = scraped_json.get(dict_key)
+        webcam_url = None
         if camera is not None and len(camera) > 0:
             last_shot = camera[-1]
-            cam_url = LINK_PREFIX + last_shot["path"]
+            webcam_url = LINK_PREFIX + last_shot["path"]
 
-        webcam_json[location_id] = {
-            "location": location,
-            "coordinates": coordinates,
-            "direction": direction,
-            "region": region,
-            "cam_url": cam_url
-        }
+            webcam_json[location_id] = {
+                "location": webcam["properties"]["title"],
+                "coordinates": webcam["geometry"]["coordinates"],
+                "direction": direction,
+                "region": webcam["properties"]["parent_id"],
+                "webcam_url": webcam_url
+            }
 
     json.dump(webcam_json, open("webcam_info.json", "w"), indent=4, ensure_ascii=False)
 
 
 def download_images():
+    """ download images from webcams and save them to disk """
     webcam_info = json.load(open("webcam_info.json", "r"))
     for key, value in webcam_info.items():
-        cam_url = value["cam_url"]
+        cam_url = value["webcam_url"]
         save_image(cam_url, key)
 
 
 if __name__ == '__main__':
-    # create_webcam_json()
+    create_webcam_json()
     download_images()
