@@ -4,3 +4,4 @@ Requests==2.30.0
 transformers==4.29.1
 torch==2.0.1
 matplotlib~=3.4.2
+geopy~=2.3.0

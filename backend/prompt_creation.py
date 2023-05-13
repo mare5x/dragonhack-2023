@@ -1,4 +1,3 @@
-
 def parse_input(user_text):
     """ Parse input from user to get the location and the question. """
 
@@ -18,7 +17,7 @@ def parse_input(user_text):
         First scenario: 
             You only need to return JSON. Use the following format:
                 task: <"location_prediction">
-                location: <user refering location - string> - extract from user prompt to what location is the user refering to.
+                location: <coordinates - tuple> - get coordinates of the location the user is refering to.
                 question: <generated question - string> - store a rewritten question that describes what information the user is 
                         asking about some location. You should reference the location as the picture. If the input is not a question
                         you should output "Describe the surroundings".
@@ -70,5 +69,27 @@ def describe_location(location, response):
     Be short and do no overexaggerate in your answers.
 
     <{chat_txt}>
+    """
+    return prompt
+
+
+def describe_location_general(task,locations):
+    #generate format for general search (where is it sunny)
+    if len(locations)>0:
+        txt = locations[0][1]
+    else:
+        txt = "loc:None"
+
+    txt += ";"+task.get("prefered_weather")+";"+str(task.get("distance"))
+    prompt = f"""
+
+    You will be provided with text delimited by < and >.
+    Text will be of format location;weather;distance.
+
+    Generate text  that is an answer to the previous user question. Be short.
+    At the location is the user specified weather. The location is at most user specified distance away from the user location.
+    If location is None, answer that no location statisfies the user preferences.
+
+    <{txt}>
     """
     return prompt
