@@ -2,8 +2,8 @@ import requests
 import json
 from PIL import Image
 import os
-
 from vqa import vqa
+
 
 
 #prompt = "Write a haiku about DragonHack."
@@ -23,10 +23,6 @@ def getResponse(prompt):
 	},
 	)
 	return response
-
-
-#if getResponse(prompt).ok:
-#   print(response.json()["choices"][0]["message"]["content"])
 
 
 def parseUserInput(user_text):
@@ -58,34 +54,74 @@ def parseUserInput(user_text):
 	response = getResponse(prompt)
 	if getResponse(prompt).ok:
 		print(response.json()["choices"][0]["message"]["content"])
+		return response.json()["choices"][0]["message"]["content"]
+	return None
+
+def outputOpinionAboutLocations(locations):
+	###generate format
+	chat_txt = ""
+	for loc in locations:
+		loc_txt = str(loc[1])+"-"
+		for fact in loc[2]:
+			loc_txt += fact[0]+","
+		loc_txt = loc_txt[:-1]+";"
+		chat_txt += loc_txt
+	print(chat_txt)
+	prompt = f"""
+	You will be provided with text delimited by < and >.
+	Text will be of format location-fact,...,fact;location-fact,...fact;...
+	facts are based on the location
+
+	Generate text for each location, describe it based on facts about it.
+
+	<{chat_txt}>
+	"""
+	response = getResponse(prompt)
+	if getResponse(prompt).ok:
+		print(response.json()["choices"][0]["message"]["content"])
 		return response
 	return None
 
 
-task = json.loads("""{
-    "location": "koper",
-    "question": "Is it raining or is it sunny?"
-}""")
 
-from transformers import ViltProcessor, ViltForQuestionAnswering
-processor = ViltProcessor.from_pretrained("dandelin/vilt-b32-finetuned-vqa")
-model = ViltForQuestionAnswering.from_pretrained("dandelin/vilt-b32-finetuned-vqa")
+
 
 def getRelevantPhotos(task):
 	location = task.get("location")
-	
+	print(location)
 	image_mapping = json.load(open("webcam_info.json"))
+
+	images = []
+	for key,value in image_mapping.items():
+		if value["location"].lower() == location.lower():
+			images.append(key)
 	#print(image_mapping)
-	images = os.listdir("webcam_images")
-	images = map(lambda x: x.split(".")[0],images)
+	#images = os.listdir("webcam_images")
+	#images = map(lambda x: x.split(".")[0],images)
 	#print(list(images))
-	images = list(filter(lambda x: image_mapping[x]["location"].lower() == location.lower(),images))
-	print(images)
-	for image in images:
-		## prepare inputs
-		vqa(Image.open(f"webcam_images/{image}.jpg"),task.get("question"))
+	#images = list(filter(lambda x: image_mapping[x]["location"].lower() == location.lower(),images))
 	
+	result = []
+	for image in images: 		#########zaenkrat ignorirajmo loop
+		## prepare inputs
+		res = vqa(Image.open(f"webcam_images/{image}.jpg"),task.get("question"))
+		result.append((image,location,res))
+	
+	return result
 
+def askGPT(prompt):
 
+	prompt = "What is the weather like in koper?"
+	#input_parse = parseUserInput(prompt)
+	#task = json.loads(input_parse)
+	task = json.loads("""{
+	"location": "koper",
+	"question": "What is the weather like?"
+	}""")
+	relPhotos = getRelevantPhotos(task)
+	response = outputOpinionAboutLocations(relPhotos)
 
-getRelevantPhotos(task)
+	print(response)
+
+	return response
+	
