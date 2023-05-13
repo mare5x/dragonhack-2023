@@ -1,5 +1,4 @@
 from transformers import ViltProcessor, ViltForQuestionAnswering
-import requests
 from PIL import Image
 import json
 import matplotlib.pyplot as plt
@@ -11,20 +10,21 @@ MODEL = ViltForQuestionAnswering.from_pretrained("dandelin/vilt-b32-finetuned-vq
 
 
 def vqa(image: Image, question: str, n=5) -> list:
-
+    """ Returns a list of n best answers for the given image and question. """
     # prepare inputs
     encoding = PROCESSOR(image, question, return_tensors="pt")
 
     # forward pass
     outputs = MODEL(**encoding)
     logits = torch.softmax(outputs.logits, dim=1)
+    # select n best answers
     n_best_idx = torch.topk(logits, n).indices[0].tolist()
-
     n_best_responses = [(MODEL.config.id2label[idx], logits[0][idx].item()) for idx in n_best_idx]
     return n_best_responses
 
 
-def main():
+def demo():
+    """ Demo of the VQA model, using the webcam images and question "What is the weather like?". """
     webcam_data = json.load(open("webcam_info.json"))
 
     for webcam_id, webcam in webcam_data.items():
@@ -47,4 +47,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    demo()
