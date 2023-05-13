@@ -68,11 +68,13 @@ def outputOpinionAboutLocations(locations):
 		chat_txt += loc_txt
 	print(chat_txt)
 	prompt = f"""
+
 	You will be provided with text delimited by < and >.
 	Text will be of format location-fact,...,fact;location-fact,...fact;...
-	facts are based on the location
+	facts are based on the location at this moment.
 
-	Generate text for each location, describe it based on facts about it.
+	Generate text for each location, describe it based on facts about it in this moment. 
+	Be short and do no overexaggerate in your answers.
 
 	<{chat_txt}>
 	"""
@@ -104,7 +106,7 @@ def getRelevantPhotos(task):
 	result = []
 	for image in images: 		#########zaenkrat ignorirajmo loop
 		## prepare inputs
-		res = vqa(Image.open(f"webcam_images/{image}.jpg"),task.get("question"))
+		res = vqa(Image.open(f"webcam_images/{image}.jpg"),task.get("question"),n=2)
 		result.append((image,location,res))
 	
 	return result
@@ -125,3 +127,5 @@ def askGPT(prompt):
 
 	return response
 	
+
+print(askGPT(prompt="What is the weather like in koper?"))
