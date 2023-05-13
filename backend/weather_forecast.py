@@ -90,13 +90,11 @@ async def weather_visualization(city):
         return image
     
         
-
+def visualize_forecast(city):
+    asyncio.run(weather_visualization(city))
 
 if __name__ == '__main__':
-  if os.name == 'nt':
-    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-  
-  asyncio.run(weather_visualization("Nanos"))
+    visualize_forecast("Nanos")
   
 
 
