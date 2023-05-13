@@ -22,16 +22,21 @@ async function processUserMessage(message) {
     },
     body: JSON.stringify({ msg: message })
   });
-  console.log(await r.json());
+  r = await r.json();
+  console.log(r);
+  let response = r["msg"];
+  return response;
 }
 
-sendButton.addEventListener('click', () => {
+sendButton.addEventListener('click', async () => {
   const message = messageInput.value.trim();
   if (message === '') {
     return;
   }
-  processUserMessage(message);
-  const side = (messages.childElementCount % 2 === 0) ? 'left' : 'right';
-  addMessage(side, message);
+  addMessage('right', message);
+
+  let resp = await processUserMessage(message);
+  addMessage('left', resp);
+
   messageInput.value = '';
 });

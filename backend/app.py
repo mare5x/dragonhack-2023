@@ -1,6 +1,9 @@
 from flask import Flask, request
 from flask_cors import CORS
 
+from chat import process
+
+
 app = Flask(__name__)
 CORS(app)
 
@@ -14,4 +17,9 @@ def hello_world():
 def chat():
     content = request.json
     print("Got:", content)
-    return { "message": content["msg"] }
+
+    msg = content["msg"]
+    response = process(msg)
+    print("Out:", response)
+
+    return { "msg": response }
