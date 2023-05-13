@@ -3,8 +3,13 @@ def parse_input(user_text):
 
     prompt = f"""
     You will be given a user prompt delimited by <<< and >>>. Your output will be only a JSON object!!!
-
-    There are three scenarios. Your first job is to read the text and determine what scenario the question fits - do not output this information, just store it for later use.
+    
+    First check if the user prompt is some sort of question or request for information. If it is not, you should output a JSON object in the following format: 
+    the task_name field set to "nonvalid" and the answer field set to "I do not understand your question. Please provide more information". In that case you
+    have completed your job, return nothing else.
+    
+    
+    Moving on there are three scenarios. Your first job is to read the text and determine what scenario the question fits - do not output this information, just store it for later use.
 
         1. In the first scenario the user will ask a question about something at a specific location in Slovenia. 
         2. In the second scenario the user will be asking you to give a recommendation of a location in Slovenia that fits the users' preferences.
