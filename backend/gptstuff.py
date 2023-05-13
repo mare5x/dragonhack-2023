@@ -5,13 +5,13 @@ import os
 from vqa import vqa
 
 
-
 #prompt = "Write a haiku about DragonHack."
 model = "gpt-3.5-turbo"
 #token = "rehvDn6zukf53UQG9W0xZ4WRTsmDV4"
 token = "VJ7c9CyPPsSgcJpbgWVfpUkG1s4jHN"
 
-def getResponse(prompt):
+
+def get_response(prompt):
 
 	response = requests.post(
 	"https://openai-api.meetings.bio/api/openai/chat/completions",
@@ -25,7 +25,7 @@ def getResponse(prompt):
 	return response
 
 
-def parseUserInput(user_text):
+def parse_user_input(user_text):
 	prompt = f"""
 	You will be given a user prompt delimited by <<< and >>>.
 
@@ -51,13 +51,14 @@ def parseUserInput(user_text):
 
 	<<<{user_text}>>>
 	"""
-	response = getResponse(prompt)
-	if getResponse(prompt).ok:
-		print(response.json()["choices"][0]["message"]["content"])
-		return response.json()["choices"][0]["message"]["content"]
+	response = get_response(prompt)
+	if get_response(prompt).ok:
+		return json.loads(response.json()["choices"][0]["message"]["content"])
 	return None
 
-def outputOpinionAboutLocations(locations):
+
+def output_opinion_about_locations(locations):
+	print("outputOpinionAboutLocations", locations)
 	###generate format
 	chat_txt = ""
 	for loc in locations:
@@ -78,25 +79,23 @@ def outputOpinionAboutLocations(locations):
 
 	<{chat_txt}>
 	"""
-	response = getResponse(prompt)
-	if getResponse(prompt).ok:
-		print(response.json()["choices"][0]["message"]["content"])
-		return response
+	response = get_response(prompt)
+	if get_response(prompt).ok:
+		# print(response.json()["choices"][0]["message"]["content"])
+		return response.json()["choices"][0]["message"]["content"]
 	return None
 
 
-
-
-
-def getRelevantPhotos(task):
+def get_relevant_photos(task):
+	print("get_relevant_photos", task)
 	location = task.get("location")
-	print(location)
 	image_mapping = json.load(open("webcam_info.json"))
 
 	images = []
-	for key,value in image_mapping.items():
+	for key, value in image_mapping.items():
 		if value["location"].lower() == location.lower():
 			images.append(key)
+
 	#print(image_mapping)
 	#images = os.listdir("webcam_images")
 	#images = map(lambda x: x.split(".")[0],images)
@@ -111,21 +110,14 @@ def getRelevantPhotos(task):
 	
 	return result
 
+
 def askGPT(prompt):
-
-	prompt = "What is the weather like in koper?"
-	#input_parse = parseUserInput(prompt)
-	#task = json.loads(input_parse)
-	task = json.loads("""{
-	"location": "koper",
-	"question": "What is the weather like?"
-	}""")
-	relPhotos = getRelevantPhotos(task)
-	response = outputOpinionAboutLocations(relPhotos)
-
-	print(response)
+	parsed_prompt = parse_user_input(prompt)
+	relPhotos = get_relevant_photos(parsed_prompt)
+	response = output_opinion_about_locations(relPhotos)
 
 	return response
-	
 
-print(askGPT(prompt="What is the weather like in koper?"))
+
+if __name__ == "__main__":
+	askGPT("What is the weather like in Ljubljana?")
