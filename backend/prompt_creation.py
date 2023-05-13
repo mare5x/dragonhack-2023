@@ -23,7 +23,7 @@ def parse_input(user_text):
             You only need to return JSON. Use the following format:
                 task: <"location_prediction">
                 location: <location - string> - get the location the user is refering to.
-                user_location: <coordinates - tuple> - get coordinates of the location the user is refering to.
+                user_location: <coordinates - tuple> - get coordinates of the location entered in the location field.
                 question: <generated question - string> - store a rewritten question that describes what information the user is 
                         asking about some location. You should reference the location as the picture. If the input is not a question
                         you should output "Describe the surroundings".
