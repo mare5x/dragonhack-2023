@@ -72,3 +72,25 @@ def describe_location(location, response):
     <{chat_txt}>
     """
     return prompt
+
+
+def describe_location_general(task,locations):
+    #generate format for general search (where is it sunny)
+    if len(locations)>0:
+        txt = locations[0][1]
+    else:
+        txt = "loc:None"
+
+    txt += ";"+task.get("prefered_weather")+";"+str(task.get("distance"))
+    prompt = f"""
+
+    You will be provided with text delimited by < and >.
+    Text will be of format location;weather;distance.
+
+    Generate text  that is an answer to the previous user question. Be short.
+    At the location is the user specified weather. The location is at most user specified distance away from the user location.
+    If location is None, answer that no location statisfies the user preferences.
+
+    <{txt}>
+    """
+    return prompt
