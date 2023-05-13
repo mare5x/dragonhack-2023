@@ -83,7 +83,9 @@ def getRelevantPhotos(task):
 	print(images)
 	for image in images:
 		## prepare inputs
-		encoding = processor(Image.open(f"webcam_images/{image}.jpg"),task.get("question"), return_tensors="pt")
-		
+		vqa(Image.open(f"webcam_images/{image}.jpg"),task.get("question"))
+	
+
+
 
 getRelevantPhotos(task)
