@@ -2,9 +2,8 @@ from gptstuff import ask_GPT
 
 
 def process(msg: str) -> str:
-    model_response, image = ask_GPT(msg)
-    return model_response, image
-
+    task, (model_response, image) = ask_GPT(msg)
+    return task, (model_response, image)
 
 def repl():
     while True:

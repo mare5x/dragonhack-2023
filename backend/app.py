@@ -1,7 +1,7 @@
 from io import BytesIO
 from base64 import encodebytes
 
-from flask import Flask, request, jsonify
+from flask import Flask, request
 from flask_cors import CORS
 
 from chat import process
@@ -22,8 +22,8 @@ def chat():
     print("Got:", content)
 
     msg = content["msg"]
-    response, image = process(msg)
-    print("Out:", response)
+    task, (model_response, image) = process(msg)
+    print("Out:", task, model_response)
 
     # Create a BytesIO object to hold the image data
     img_io = BytesIO()
@@ -31,5 +31,5 @@ def chat():
     img_io.seek(0)
     encoded_img = encodebytes(img_io.getvalue()).decode('ascii')  # encode as base64
 
-    return { "msg": response, "img": encoded_img }
+    return { task: task, "msg": model_response, "img": encoded_img }
 
