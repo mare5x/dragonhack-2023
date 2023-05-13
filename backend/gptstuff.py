@@ -12,6 +12,8 @@ model = "gpt-3.5-turbo"
 token = "VJ7c9CyPPsSgcJpbgWVfpUkG1s4jHN"
 
 
+
+
 def get_response(prompt):
     # specification of all options: https://platform.openai.com/docs/api-reference/chat/create
     json_prompt = {
@@ -73,14 +75,23 @@ def get_relevant_photos_preffered_weather(task):
     preffered_weather = task["prefered_weather"]
     images = map(lambda x: x[:-4],os.listdir("webcam_images")) #remove .jpg
 
+    cached_prompts = json.load(open("cached_prompts.json"))
     result = []
     for image in images: 	
         ## prepare inputs
-        res = vqa(Image.open(f"webcam_images/{image}.jpg"),"Is it "+preffered_weather+"?",n=1)
+        if image+preffered_weather in cached_prompts:
+            res = cached_prompts[image+preffered_weather]
+            print("cached!")
+        else:
+            res = vqa(Image.open(f"webcam_images/{image}.jpg"),"Is it "+preffered_weather+"?",n=1)
+            cached_prompts[image+preffered_weather] = res
         print(res)
+        
         if res[0][0].lower() == "yes":
             result.append((image,image_mapping[image]["location"],res[0][1]))
-        
+
+    with open("cached_prompts.json", "w") as outfile:
+        json.dump(cached_prompts, outfile)
     return sorted(result,key=lambda x: x[2],reverse=True)
 
 def get_distances_to_locations(loc):
