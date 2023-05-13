@@ -488,5 +488,865 @@
         "direction": "sw",
         "region": "SI_GORENJSKA_",
         "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ZGORN-SOR_dir/siwc_20230513-1550_ZGORN-SOR_sw.jpg"
+    },
+    "HRIBI-4356_": {
+        "location": "ankaran",
+        "coordinates": [
+            13.7364985,
+            45.5789629
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_ankaran01.jpg?hribi.net"
+    },
+    "HRIBI-4309_": {
+        "location": "cerje",
+        "coordinates": [
+            14.248975,
+            45.5181007
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_cerje01.jpg?hribi.net"
+    },
+    "HRIBI-3400_": {
+        "location": "fiesa",
+        "coordinates": [
+            13.5802236,
+            45.5243498
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_fiesa01.jpg?hribi.net"
+    },
+    "HRIBI-3694_": {
+        "location": "idrija",
+        "coordinates": [
+            14.0273014,
+            46.0023983
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_idrija02.jpg?hribi.net"
+    },
+    "HRIBI-1000_": {
+        "location": "izola",
+        "coordinates": [
+            13.65939,
+            45.5398936
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_izola2.jpg?hribi.net"
+    },
+    "HRIBI-3451_": {
+        "location": "izola_belvedere",
+        "coordinates": [
+            13.6363417,
+            45.5303314
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_izola3.jpg?hribi.net"
+    },
+    "HRIBI-4296_": {
+        "location": "kanal_ob_soci",
+        "coordinates": [
+            13.6339298,
+            46.0858687
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kanal01.jpg?hribi.net"
+    },
+    "HRIBI-4326_": {
+        "location": "kanal_ob_soci_kanalski_most",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kanal02.jpg?hribi.net"
+    },
+    "HRIBI-4335_": {
+        "location": "koper_marina",
+        "coordinates": [
+            13.727714082278482,
+            45.5507635
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_koper04.jpg?hribi.net"
+    },
+    "HRIBI-4268_": {
+        "location": "koper_panoramski_pogled",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_koper02.jpg?hribi.net"
+    },
+    "HRIBI-3395_": {
+        "location": "krajinski_park_strunjan",
+        "coordinates": [
+            13.616785323913426,
+            45.53387335
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_strunjan01.jpg?hribi.net"
+    },
+    "HRIBI-2082_": {
+        "location": "letalisce_portoroz",
+        "coordinates": [
+            13.616114921756441,
+            45.4724036
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_ljpz1.jpg?hribi.net"
+    },
+    "HRIBI-4329_": {
+        "location": "luka_koper",
+        "coordinates": [
+            13.74730318883703,
+            45.55715375
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_koper04.jpg?hribi.net"
+    },
+    "HRIBI-1996_": {
+        "location": "nova_gorica_-_rolkarski_park",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_ngsk1.jpg?hribi.net"
+    },
+    "HRIBI-1574_": {
+        "location": "piran",
+        "coordinates": [
+            13.5684109,
+            45.5284919
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_piran04.jpg?hribi.net"
+    },
+    "HRIBI-3259_": {
+        "location": "piran_mandrac",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_piran06.jpg?hribi.net"
+    },
+    "HRIBI-4323_": {
+        "location": "piran_villa_piranesi",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_piran05.jpg?hribi.net"
+    },
+    "HRIBI-1001_": {
+        "location": "portoroz",
+        "coordinates": [
+            13.5910112,
+            45.5146489
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_portoroz04.jpg?hribi.net"
+    },
+    "HRIBI-3583_": {
+        "location": "portoroz_villa_bellevue",
+        "coordinates": [
+            13.597378193058436,
+            45.51307545
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_portoroz08.jpg?hribi.net"
+    },
+    "HRIBI-2109_": {
+        "location": "predjama",
+        "coordinates": [
+            14.129137,
+            45.8141793
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_predjama01.jpg?hribi.net"
+    },
+    "HRIBI-1725_": {
+        "location": "secoveljske_soline",
+        "coordinates": [
+            13.605657636063532,
+            45.4819282
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_solinesecovlje.jpg?hribi.net"
+    },
+    "HRIBI-1663_": {
+        "location": "solkan",
+        "coordinates": [
+            13.649443,
+            45.972742
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_solkankajak.jpg?hribi.net"
+    },
+    "HRIBI-4065_": {
+        "location": "solkan_brv_cez_soco",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_solkan02.jpg?hribi.net"
+    },
+    "HRIBI-3326_": {
+        "location": "solkanski_most",
+        "coordinates": [
+            13.6517773,
+            45.9785611
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_solkan01.jpg?hribi.net"
+    },
+    "HRIBI-4225_": {
+        "location": "sempeter_pri_gorici",
+        "coordinates": [
+            13.6398587,
+            45.9303401
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_sempeter01.jpg?hribi.net"
+    },
+    "HRIBI-2155_": {
+        "location": "sempeter_pri_gorici",
+        "coordinates": [
+            13.6398587,
+            45.9303401
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_sempeter01.jpg?hribi.net"
+    },
+    "HRIBI-4083_": {
+        "location": "smartno",
+        "coordinates": [
+            13.5556995,
+            46.0058273
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_brda01.jpg?hribi.net"
+    },
+    "HRIBI-4213_": {
+        "location": "stanjel_ferrarijev_vrt",
+        "coordinates": [
+            13.847685314273683,
+            45.8232859
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_stanjel01.jpg?hribi.net"
+    },
+    "HRIBI-4094_": {
+        "location": "tolminski_lom",
+        "coordinates": [
+            13.7451896,
+            46.1272376
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_mostnasoci02.jpg?hribi.net"
+    },
+    "HRIBI-3653_": {
+        "location": "viadukt_crni_kal",
+        "coordinates": [
+            13.870312665228319,
+            45.5562259
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_crnikal01.jpg?hribi.net"
+    },
+    "HRIBI-2113_": {
+        "location": "blejsko_jezero",
+        "coordinates": [
+            14.093806871341457,
+            46.363913249999996
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_bled1.jpg?hribi.net"
+    },
+    "HRIBI-1317_": {
+        "location": "bovec",
+        "coordinates": [
+            13.552419,
+            46.3385847
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_bovec.jpg?hribi.net"
+    },
+    "HRIBI-4354_": {
+        "location": "erjavceva_koca_na_vrsicu",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_vrsic01.jpg?hribi.net"
+    },
+    "HRIBI-1594_": {
+        "location": "humin___gemona_del_friuli",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/it_gemona01.jpg?hribi.net"
+    },
+    "HRIBI-3352_": {
+        "location": "jezero_jasna",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_jasna01.jpg?hribi.net"
+    },
+    "HRIBI-4412_": {
+        "location": "kanin_graben",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kanin03.jpg?hribi.net"
+    },
+    "HRIBI-500_": {
+        "location": "kobarid",
+        "coordinates": [
+            13.5791754,
+            46.2455017
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kobarid02.jpg?hribi.net"
+    },
+    "HRIBI-623_": {
+        "location": "kobla",
+        "coordinates": [
+            13.9650643,
+            46.2338617
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kozjihrbet01.jpg?hribi.net"
+    },
+    "HRIBI-2184_": {
+        "location": "kranjska_gora_podkoren",
+        "coordinates": [
+            13.775685689265535,
+            46.486854300000005
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kranjskagora5.jpg?hribi.net"
+    },
+    "HRIBI-3349_": {
+        "location": "kranjska_gora_vrtljiva_kamera",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kranjskagora8.jpg?hribi.net"
+    },
+    "HRIBI-4311_": {
+        "location": "log_pod_mangartom",
+        "coordinates": [
+            13.6035806,
+            46.4066861
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_logmangart02.jpg?hribi.net"
+    },
+    "HRIBI-1677_": {
+        "location": "most_na_soci",
+        "coordinates": [
+            13.7410956,
+            46.1531057
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_mostnasoci03.jpg?hribi.net"
+    },
+    "HRIBI-1700_": {
+        "location": "pokljuka",
+        "coordinates": [
+            13.9218914,
+            46.3441471
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_pokljuka1.jpg?hribi.net"
+    },
+    "HRIBI-1361_": {
+        "location": "prevala",
+        "coordinates": [
+            14.750971,
+            46.247568
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kanin04.jpg?hribi.net"
+    },
+    "HRIBI-288_": {
+        "location": "soriska_planina",
+        "coordinates": [
+            14.007876038249055,
+            46.235787
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_sorica04.jpg?hribi.net"
+    },
+    "HRIBI-1881_": {
+        "location": "stol_kobariski",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kobarid01.jpg?hribi.net"
+    },
+    "HRIBI-1775_": {
+        "location": "tolmin",
+        "coordinates": [
+            13.7328983,
+            46.1828005
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_tolmin.jpg?hribi.net"
+    },
+    "HRIBI-482_": {
+        "location": "trbiz_tarvisio",
+        "coordinates": [
+            13.5794473,
+            46.4265905
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/it_tarvisio02.jpg?hribi.net"
+    },
+    "HRIBI-1729_": {
+        "location": "trenta",
+        "coordinates": [
+            13.7519234,
+            46.380841
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_trenta01.jpg?hribi.net"
+    },
+    "HRIBI-2112_": {
+        "location": "visevnik",
+        "coordinates": [
+            13.8982404,
+            46.3589823
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_pokljuka1.jpg?hribi.net"
+    },
+    "HRIBI-16_": {
+        "location": "vogel",
+        "coordinates": [
+            13.6693706,
+            46.2864885
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_vogel5.jpg?hribi.net"
+    },
+    "HRIBI-34_": {
+        "location": "golte",
+        "coordinates": [
+            14.895333938707587,
+            46.372553800000006
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_golte1.jpg?hribi.net"
+    },
+    "HRIBI-33_": {
+        "location": "krvavec",
+        "coordinates": [
+            14.5367454,
+            46.2996823
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_krvavec3.jpg?hribi.net"
+    },
+    "HRIBI-3327_": {
+        "location": "krvavec_vrtljiva_kamera",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_krvavec7.jpg?hribi.net"
+    },
+    "HRIBI-12_": {
+        "location": "velika_planina_zeleni_rob",
+        "coordinates": [
+            14.6403285,
+            46.2995737
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_velikaplanina01.jpg?hribi.net"
+    },
+    "HRIBI-2133_": {
+        "location": "veliki_zvoh",
+        "coordinates": [
+            14.5415901,
+            46.3088586
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_krvavec6.jpg?hribi.net"
+    },
+    "HRIBI-4262_": {
+        "location": "belska_planina_svecica",
+        "coordinates": [
+            14.1096351,
+            46.4738901
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_struska01.jpg?hribi.net"
+    },
+    "HRIBI-527_": {
+        "location": "bukovnik",
+        "coordinates": [
+            14.3421116,
+            45.8340327
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_bukovnik.jpg?hribi.net"
+    },
+    "HRIBI-3458_": {
+        "location": "dovje_apartmaji_triglav",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_mojstrana01.jpg?hribi.net"
+    },
+    "HRIBI-2138_": {
+        "location": "kamnica",
+        "coordinates": [
+            15.6134209,
+            46.5729808
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_maribor03.jpg?hribi.net"
+    },
+    "HRIBI-14_": {
+        "location": "mariborsko_pohorje",
+        "coordinates": [
+            15.5782311,
+            46.5153389
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_mbpohorje02.jpg?hribi.net"
+    },
+    "HRIBI-165_": {
+        "location": "rogla",
+        "coordinates": [
+            15.3331947,
+            46.45321
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_rogla1.jpg?hribi.net"
+    },
+    "HRIBI-2179_": {
+        "location": "rogla_hotel_natura",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_rogla9.jpg?hribi.net"
+    },
+    "HRIBI-1860_": {
+        "location": "rogla_masin_zaga",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_rogla8.jpg?hribi.net"
+    },
+    "HRIBI-4192_": {
+        "location": "rogla_ostruscica",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_rogla10.jpg?hribi.net"
+    },
+    "HRIBI-4294_": {
+        "location": "sveti_trije_kralji_hotel_jakec",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_trijekralji02.jpg?hribi.net"
+    },
+    "HRIBI-4331_": {
+        "location": "ljubljana_zivalski_vrt_-_levi",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_ljzoo10.jpg?hribi.net"
+    },
+    "HRIBI-1702_": {
+        "location": "ljubljana_-_zivalski_vrt",
+        "coordinates": [
+            14.472194370665854,
+            46.055298199999996
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_ljzoo1.jpg?hribi.net"
+    },
+    "HRIBI-184_": {
+        "location": "medvode",
+        "coordinates": [
+            14.4130728,
+            46.1402285
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_medvode01.jpg?hribi.net"
+    },
+    "HRIBI-1931_": {
+        "location": "smlednik",
+        "coordinates": [
+            14.4342229,
+            46.1640594
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_ljgolf.jpg?hribi.net"
+    },
+    "HRIBI-2165_": {
+        "location": "zbiljsko_jezero",
+        "coordinates": [
+            14.419781046119601,
+            46.156554400000005
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_medvode02.jpg?hribi.net"
+    },
+    "HRIBI-3347_": {
+        "location": "brezice_he_brezice",
+        "coordinates": [
+            15.58820373005155,
+            45.899031050000005
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_hse4_2.jpg?hribi.net"
+    },
+    "HRIBI-4271_": {
+        "location": "brezice_reka_sava",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_brezice2.jpg?hribi.net"
+    },
+    "HRIBI-361_": {
+        "location": "celje",
+        "coordinates": [
+            15.2616828,
+            46.2293889
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_celje02.jpg?hribi.net"
+    },
+    "HRIBI-174_": {
+        "location": "celjska_koca",
+        "coordinates": [
+            15.278161752009435,
+            46.19300775
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_celjskoca01.jpg?hribi.net"
+    },
+    "HRIBI-4303_": {
+        "location": "naravni_park_jovsi_brezice",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_brezice3.jpg?hribi.net"
+    },
+    "HRIBI-4234_": {
+        "location": "rudnisko_jezero",
+        "coordinates": [
+            14.87028872156003,
+            45.648699300000004
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kocevje02.jpg?hribi.net"
+    },
+    "HRIBI-2047_": {
+        "location": "sveti_vid_sentviska_gora",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_brezice1.jpg?hribi.net"
+    },
+    "HRIBI-4189_": {
+        "location": "drazgose",
+        "coordinates": [
+            14.1755775,
+            46.2524002
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_drazgose01.jpg?hribi.net"
+    },
+    "HRIBI-4302_": {
+        "location": "gorenja_vas",
+        "coordinates": [
+            14.8076763,
+            45.9186462
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_gorenjavas01.jpg?hribi.net"
+    },
+    "HRIBI-3611_": {
+        "location": "idrija_mestni_trg",
+        "coordinates": [
+            14.0210924,
+            46.001007
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_idrija01.jpg?hribi.net"
+    },
+    "HRIBI-1813_": {
+        "location": "koca_na_starem_vrhu",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_starivrh.jpg?hribi.net"
+    },
+    "HRIBI-4190_": {
+        "location": "podlanisce",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_cerkno01.jpg?hribi.net"
+    },
+    "HRIBI-272_": {
+        "location": "rudno",
+        "coordinates": [
+            14.1664163,
+            46.2469548
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_rudno02.jpg?hribi.net"
+    },
+    "HRIBI-63_": {
+        "location": "smucisce_cerkno",
+        "coordinates": [
+            14.049674904855099,
+            46.154911999999996
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_cerknobrdo.jpg?hribi.net"
+    },
+    "HRIBI-273_": {
+        "location": "stari_vrh",
+        "coordinates": [
+            15.1505721,
+            45.7436398
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_starivrh.jpg?hribi.net"
     }
 }
