@@ -91,7 +91,7 @@ async def weather_visualization(city):
     
         
 def visualize_forecast(city):
-    asyncio.run(weather_visualization(city))
+    return asyncio.run(weather_visualization(city))
 
 if __name__ == '__main__':
     visualize_forecast("Nanos")
