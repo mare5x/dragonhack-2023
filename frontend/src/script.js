@@ -5,16 +5,17 @@ const messageInput = document.getElementById('message-input');
 const sendButton = document.getElementById('send-button');
 const messages = document.getElementById('messages');
 
-function addMessage(side, text) {
+
+function addUserMessage(text) {
   const messageElement = document.createElement('div');
   messageElement.classList.add('message');
-  messageElement.classList.add(`message-${side}`);
+  messageElement.classList.add(`message-right`);
   messageElement.innerHTML = `<p>${text}</p>`;
   messages.appendChild(messageElement);
   messages.scrollTop = messages.scrollHeight;
 }
 
-async function processUserMessage(message) {
+async function getResponse(message) {
   let r = await fetch(BACKEND_URL, { method: 'POST',
     headers: { 
       'Accept': 'application/json',
@@ -22,10 +23,29 @@ async function processUserMessage(message) {
     },
     body: JSON.stringify({ msg: message })
   });
-  r = await r.json();
-  console.log(r);
-  let response = r["msg"];
-  return response;
+  return await r.json();
+}
+
+async function addResponseMessage({ msg, img }) {
+  console.log(msg, img);
+  
+  let container = document.createElement('div');
+  container.classList.add('image-container');
+  
+  const imgElement = document.createElement('img');
+  // imgElement.src = URL.createObjectURL(new Blob([atob(img)], {type: 'image/jpeg'}));
+  imgElement.src = `data:image/jpeg;base64,${img}`;
+
+  const messageElement = document.createElement('div');
+  messageElement.classList.add('message');
+  messageElement.classList.add(`message-left`);
+  messageElement.innerHTML = `<p>${msg}</p>`;
+  
+  container.appendChild(messageElement);
+  container.appendChild(imgElement);
+
+  messages.appendChild(container);
+  messages.scrollTop = messages.scrollHeight;
 }
 
 sendButton.addEventListener('click', async () => {
@@ -33,10 +53,9 @@ sendButton.addEventListener('click', async () => {
   if (message === '') {
     return;
   }
-  addMessage('right', message);
-
-  let resp = await processUserMessage(message);
-  addMessage('left', resp);
+  addUserMessage(message);
+  let resp = await getResponse(message);
+  await addResponseMessage(resp);
 
   messageInput.value = '';
 });
