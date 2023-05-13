@@ -3,6 +3,7 @@ import json
 from PIL import Image
 import os
 from vqa import vqa
+from prompt_creation import *
 
 # prompt = "Write a haiku about DragonHack."
 model = "gpt-3.5-turbo"
@@ -22,59 +23,19 @@ def get_response(prompt):
 
 
 def parse_user_input(user_text):
-    prompt = f"""
-    You will be given a user prompt delimited by <<< and >>>.
+    prompt = parse_input(user_text)
 
-    Extract from user prompt to what location is the user refering.
-
-    Generate a question that is like users, but without the specified location.
-
-    For example:
-    input: What is the weather like in london?
-    your output: What is the weather?
-    input: Is it cloudy or foggy in london?
-    your output: Is it cloudy or is it foggy?
-
-
-
-    You need to construct a JSON.
-    Use the following format:
-    location: <user refering location - string>
-    question: <generated question - string>
-
-    Output JSON: <json with location and question>
-
-
-    <<<{user_text}>>>
-    """
     response = get_response(prompt)
     if get_response(prompt).ok:
         return json.loads(response.json()["choices"][0]["message"]["content"])
     return None
 
 
-def output_opinion_about_locations(location):
+def output_opinion_about_locations(location, response):
     print("output_opinion_about_locations", location)
-    # generate format
-    chat_txt = ""
+    prompt = describe_location(location, response)
+    print(prompt)
 
-    loc_txt = str(location[1])+"-"
-    for fact in location[2]:
-        loc_txt += fact[0]+","
-    loc_txt = loc_txt[:-1]+";"
-    chat_txt += loc_txt
-    print(chat_txt)
-    prompt = f"""
-
-    You will be provided with text delimited by < and >.
-    Text will be of format location-fact,...,fact;location-fact,...fact;...
-    facts are based on the location at this moment.
-
-    Generate text for each location, describe it based on facts about it in this moment. 
-    Be short and do no overexaggerate in your answers.
-
-    <{chat_txt}>
-    """
     response = get_response(prompt)
     if get_response(prompt).ok:
         # print(response.json()["choices"][0]["message"]["content"])
@@ -102,7 +63,7 @@ def get_relevant_photos(task):
 def ask_GPT(prompt):
     parsed_prompt = parse_user_input(prompt)
     image, location, response = get_relevant_photos(parsed_prompt)
-    response = output_opinion_about_locations((image, location, response))
+    response = output_opinion_about_locations(location, response)
 
     return response, image
 
