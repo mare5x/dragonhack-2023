@@ -1,8 +1,8 @@
-from gptstuff import askGPT
+from gptstuff import ask_GPT
 
 
 def process(msg: str) -> str:
-    model_response = askGPT(msg)
+    model_response = ask_GPT(msg)
     return model_response
 
 
