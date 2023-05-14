@@ -4,6 +4,7 @@ const BACKEND_URL = "http://localhost:5000"
 const messageInput = document.getElementById('message-input');
 const sendButton = document.getElementById('send-button');
 const messages = document.getElementById('messages');
+const clearButton = document.getElementById('clear-button');
 
 
 function addUserMessage(text) {
@@ -84,5 +85,10 @@ messageInput.addEventListener('keydown', async (event) => {
     let resp = await getResponse(message);
     await addResponseMessage(resp);
   }
+});
+
+clearButton.addEventListener('click', () => {
+  messages.innerHTML = '';
+  messageInput.value = '';
 });
 

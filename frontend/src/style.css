@@ -71,6 +71,16 @@ body {
   cursor: pointer;
 }
 
+#clear-button {
+  width: 80px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fcca49;
+  margin-right: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
 .image-container {
   display: flex;
   flex-direction: column;
