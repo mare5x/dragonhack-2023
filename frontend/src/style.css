@@ -37,6 +37,7 @@ body {
 
 .message-left {
   background-color: #0084ff;
+  color: #fff;
   align-self: flex-start;
 }
 
@@ -78,7 +79,7 @@ body {
 
 .image-container img {
   max-width: 100%;
-  max-height: 200px;
+  max-height: 350px;
   object-fit: contain;
   padding: 8px;
 }

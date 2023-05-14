@@ -29,6 +29,7 @@ def parse_user_input(user_input):
 
     response = get_response(prompt)
     if response.ok:
+        print(response.json())
         return json.loads(response.json()["choices"][0]["message"]["content"])
     return None
 
@@ -135,7 +136,7 @@ def get_location_opinion(task):
 def get_location_recommendation(task):
     """ returns recommendation of location based on users weather preferences specified in task """
     relevant_photos = get_relevant_photos_preferred_weather(task)
-    if task.get("distance") is not None:
+    if task.get("distance") is not None and task.get("distance") > 0:
         distances = get_distances_to_locations(task.get("user_location"))
         good_locations = list(map(lambda x: x[0], filter(lambda x: x[1] < task.get("distance"),
                                                          distances)))
@@ -157,12 +158,17 @@ def ask_GPT(prompt):
     print(f"{parsed_prompt=}")
     
     task_name = parsed_prompt.get("task")
+    print(task_name)
     if task_name == "location_prediction":
         return task_name, get_location_opinion(parsed_prompt)
     elif task_name == "location_recommendation":
         return task_name, get_location_recommendation(parsed_prompt)
-    elif task_name == "other":
-        return task_name, parsed_prompt.get("answer")
+    elif task_name == "undefined" or "other":
+        response = get_response(prompt)
+        task_name = "undefined"
+        if response.ok:
+            return task_name, response.json()["choices"][0]["message"]["content"]
+        return None, None
     else:
         return None, None
 
@@ -172,7 +178,6 @@ def repl():
         prompt = input("Enter your question: ")
         resp = ask_GPT(prompt)
         print(resp)
-
 
 
 if __name__ == "__main__":

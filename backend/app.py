@@ -1,7 +1,7 @@
 from io import BytesIO
 from base64 import encodebytes
 
-from flask import Flask, request, send_file, jsonify
+from flask import Flask, request
 from flask_cors import CORS
 
 from chat_api import ask_GPT
@@ -23,13 +23,15 @@ def chat():
 
     msg = content["msg"]
     task, response = ask_GPT(msg)
+    print(task, response)
 
     # Create a BytesIO object to hold the image data
-    img_io = BytesIO()
-    response["image"].save(img_io, format='JPEG')
-    img_io.seek(0)
-    encoded_img = encodebytes(img_io.getvalue()).decode('ascii')  # encode as base64
-    response["image"] = encoded_img
+    if "image" in response:
+        img_io = BytesIO()
+        response["image"].save(img_io, format='JPEG')
+        img_io.seek(0)
+        encoded_img = encodebytes(img_io.getvalue()).decode('ascii')  # encode as base64
+        response["image"] = encoded_img
 
     if "location" in response:
         forecast_image = visualize_forecast(response["location"])
