@@ -40,12 +40,14 @@ def image_id_to_location(image_id):
     image_mapping = json.load(open("webcam_info.json"))
     return image_mapping[image_id]["location"]
 
+
 def location_to_coordinates(location: str) -> list:
     image_mapping = json.load(open("webcam_info.json"))
     for key, value in image_mapping.items():
         if value["location"].lower() == location.lower():
             return value["coordinates"][::-1]
     return [0, 0]
+
 
 def output_opinion_about_locations(location, response, question):
     """ returns models opinion about teh given location """
@@ -84,7 +86,7 @@ def get_image_by_location(task):
         if "count" in task.get("question")  or "many" in task.get("question"):
             n = 1
             print("I SHOULD COUNT")
-            #remove name of location from question
+            # remove name of location from question
             if task.get("location") in task.get("question"):
                 question = task.get("question").replace(task.get("location"),"")
             else:
@@ -188,7 +190,7 @@ def repl():
 
 
 if __name__ == "__main__":
-    test1 = {
+    test = {
         "task": "location_recommendation",
         "user_location": [46.0569, 14.5058],
         "preferred_weather": "sunny",
@@ -196,6 +198,3 @@ if __name__ == "__main__":
     }
     
     print(ask_GPT("Where is it sunny?"))
-    
-    # print(parse_user_input("What is the weather like in Čmaribor?"))
-    # print(get_location_recommendation(test1))

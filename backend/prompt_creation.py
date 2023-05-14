@@ -63,14 +63,14 @@ def parse_input(user_text):
     return prompt
 
 
-def describe_location(location, response,question):
-    # generate format
+def describe_location(location, response, question):
+    """ Generate format for location description. """
     chat_txt = question
 
-    loc_txt = str(location)+"-"
+    loc_txt = f"{location}-"
     for fact in response:
-        loc_txt += fact[0]+","
-    loc_txt = loc_txt[:-1]+";"
+        loc_txt += f"{fact[0]}+,"
+    loc_txt = f"{loc_txt[:-1]};"
     chat_txt += loc_txt
     print(chat_txt)
 
@@ -89,16 +89,16 @@ def describe_location(location, response,question):
     return prompt
 
 
-def describe_location_general(task,locations):
-    #generate format for general search (where is it sunny)
-    if len(locations)>0:
+def describe_location_general(task, locations):
+    """ Generate format for location description. """
+    if len(locations) > 0:
         txt = locations[0][1]
     else:
         txt = "None"
 
-    txt += ";"+task.get("preferred_weather")
-    if task.get("distance") != None:
-        txt += ";"+str(task.get("distance"))
+    txt += f";{task.get('preferred_weather')}"
+    if task.get("distance") is not None:
+        txt += f";+{task.get('distance')}"
     prompt = f"""
 
     You will be provided with text delimited by < and >.
