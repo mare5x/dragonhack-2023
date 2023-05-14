@@ -4,26 +4,29 @@ def parse_input(user_text):
     prompt = f"""
     You will be given a user prompt delimited by <<< and >>>. Your output will be only a JSON object!!!
     
-    First check if the user prompt is some sort of question or request for information. If it is not, you should output a JSON object in the following format: 
-    the task_name field set to "nonvalid" and the answer field set to "I do not understand your question. Please provide more information". In that case you
-    have completed your job, return nothing else.
-    
-    
-    Moving on there are three scenarios. Your first job is to read the text and determine what scenario the question fits - do not output this information, just store it for later use.
-
+    Moving on there are four scenarios. Your first job is to read the text and determine what scenario the question fits - do not output this information, just store it for later use.
+        
+        0. In the zeroth scenario the user input is not a question or request. It is not clear what the user wants.
         1. In the first scenario the user will ask a question about something at a specific location in Slovenia. 
         2. In the second scenario the user will be asking you to give a recommendation of a location in Slovenia that fits the users' preferences.
         3. In the third scenario the user will be asking you something else, that has nothing to do with the first two scenarios.
 
     After determining the scenario, follow the instructions for the chosen scenario.
 
+
     You should only return a JSON object. What the JSON object looks like depends on our scenario. 
+
+        Zeroth scenario:
+            You only need to return JSON. Use the following format:	
+                task: <"undefined">
+                answer: <"I am sorry but I don't understand your question. Can you please provide more information.">
 
         First scenario: 
             You only need to return JSON. Use the following format:
                 task: <"location_prediction">
-                location: <location - string> - get the location the user is refering to.
-                user_location: <coordinates - tuple> - get coordinates of the location entered in the location field.
+                location: <location - string> - get the location the user is refering to. 
+                user_location: <coordinates - tuple> - latitute and longitude coordinates of the location that we write in the location 
+                                                        field. If you cannot find the coordinates, give an output like in the zeroth scenario.
                 question: <generated question - string> - store a rewritten question that describes what information the user is 
                         asking about some location. You should reference the location as the picture. If the input is not a question
                         you should output "Describe the surroundings".
@@ -40,7 +43,7 @@ def parse_input(user_text):
             You only need to return JSON. Use the following format:
                 task: <"location_recommendation">
                 user_location: <coordinates - tuple> - get coordinates of the user location, in case it is not provided, give coordinates of Ljubljana
-                distance: <maximum distance - int> - from user input determine the maximum distance the user is willing to travel if this information was provided
+                distance: <maximum distance - int> - from user input determine the maximum distance the user is willing to travel if this information was provided.
                 prefered_weather: <weather - string> - from user input determine the weather the user prefers if this information was provided
                 prefered_activity: <activity - string> - from user input determine the activity the user prefers if this information was provided
 
