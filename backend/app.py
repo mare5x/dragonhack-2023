@@ -37,6 +37,6 @@ def chat():
         img_io.seek(0)
         response["forecast_image"] = encodebytes(img_io.getvalue()).decode('ascii')  # encode as base64
 
-    print("chat:", task, response)
+    # print("chat:", task, response)
 
     return { "task": task, "response": response }

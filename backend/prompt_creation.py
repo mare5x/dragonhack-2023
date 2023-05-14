@@ -26,7 +26,7 @@ def parse_input(user_text):
                 task: <"location_prediction">
                 location: <location - string> - get the location the user is refering to. 
                 user_location: <coordinates - tuple> - latitute and longitude coordinates of the location that we write in the location 
-                                                        field. If you cannot find the coordinates, give an output like in the zeroth scenario. Example: (46.0569, 14.5058)
+                                                        field. If you cannot find the coordinates, give an output like in the zeroth scenario. Example: [46.0569, 14.5058]
                 question: <generated question - string> - store a rewritten question that describes what information the user is 
                         asking about some location. You should reference the location as the picture. If the input is not a question
                         you should output "Describe the surroundings".
@@ -42,7 +42,7 @@ def parse_input(user_text):
         Second scenario:
             You only need to return JSON. Use the following format:
                 task: <"location_recommendation">
-                user_location: <coordinates - tuple> - get coordinates of the user location, in case it is not provided, give coordinates of Ljubljana. Example: (46.0569, 14.5058)
+                user_location: <coordinates - tuple> - get coordinates of the user location, in case it is not provided, give coordinates of Ljubljana. Example: [46.0569, 14.5058]
                 distance: <maximum distance - int> - from user input determine the maximum distance the user is willing to travel if this information was provided
                 prefered_weather: <weather - string> - from user input determine the weather the user prefers
                 prefered_activity: <activity - string> - from user input determine the activity the user prefers if this information was provided

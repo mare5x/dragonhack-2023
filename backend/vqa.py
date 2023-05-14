@@ -47,4 +47,6 @@ def demo():
 
 
 if __name__ == "__main__":
-    demo()
+    # demo()
+
+    print(vqa(Image.open("webcam_images/HRIBI-4323_.jpg"), "How many boats are there?"))
