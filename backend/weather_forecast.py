@@ -82,7 +82,6 @@ def weather_visualization(coordinates,city):
                bbox=dict(boxstyle='round', facecolor='blue', alpha=0.25))
     
     plt.title(f"Forecast for {city}")
-    
     plt.savefig("weather_forecast.jpg")
     image = Image.open("weather_forecast.jpg")
     return image

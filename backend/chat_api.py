@@ -40,6 +40,11 @@ def image_id_to_location(image_id):
     image_mapping = json.load(open("webcam_info.json"))
     return image_mapping[image_id]["location"]
 
+def location_to_coordinates(location: str) -> list:
+    image_mapping = json.load(open("webcam_info.json"))
+    for key, value in image_mapping.items():
+        if value["location"] == location:
+            return value["coordinates"]
 
 def output_opinion_about_locations(location, response, question):
     """ returns models opinion about teh given location """
