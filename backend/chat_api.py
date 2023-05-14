@@ -43,7 +43,7 @@ def image_id_to_location(image_id):
 def location_to_coordinates(location: str) -> list:
     image_mapping = json.load(open("webcam_info.json"))
     for key, value in image_mapping.items():
-        if value["location"] == location:
+        if value["location"].lower() == location.lower():
             return value["coordinates"][::-1]
     return [0, 0]
 
