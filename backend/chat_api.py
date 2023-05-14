@@ -6,6 +6,7 @@ from vqa import vqa
 from prompt_creation import *
 from geopy.distance import geodesic
 
+
 MODEL_NAME = "gpt-3.5-turbo"
 TOKEN = "VJ7c9CyPPsSgcJpbgWVfpUkG1s4jHN"
 
