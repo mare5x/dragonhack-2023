@@ -43,13 +43,8 @@ def parse_input(user_text):
             You only need to return JSON. Use the following format:
                 task: <"location_recommendation">
                 user_location: <coordinates - tuple> - get coordinates of the user location, in case it is not provided, give coordinates of Ljubljana
-<<<<<<< HEAD
-                distance: <maximum distance - int> - from user input determine the maximum distance the user is willing to travel if this information was provided.
-                prefered_weather: <weather - string> - from user input determine the weather the user prefers if this information was provided
-=======
                 distance: <maximum distance - int> - from user input determine the maximum distance the user is willing to travel if this information was provided
                 prefered_weather: <weather - string> - from user input determine the weather the user prefers
->>>>>>> 0b76f005f9cfa1b7891e2c43ae496ec93c9e9d9b
                 prefered_activity: <activity - string> - from user input determine the activity the user prefers if this information was provided
 
         Third scenario:
@@ -96,7 +91,7 @@ def describe_location_general(task,locations):
 
     txt += ";"+task.get("prefered_weather")
     if task.get("distance") != None:
-        text += ";"+str(task.get("distance"))
+        txt += ";"+str(task.get("distance"))
     prompt = f"""
 
     You will be provided with text delimited by < and >.
