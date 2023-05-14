@@ -158,12 +158,17 @@ def ask_GPT(prompt):
     print(f"{parsed_prompt=}")
     
     task_name = parsed_prompt.get("task")
+    print(task_name)
     if task_name == "location_prediction":
         return task_name, get_location_opinion(parsed_prompt)
     elif task_name == "location_recommendation":
         return task_name, get_location_recommendation(parsed_prompt)
-    elif task_name == "other":
-        return task_name, parsed_prompt.get("answer")
+    elif task_name == "undefined" or "other":
+        response = get_response(prompt)
+        task_name = "undefined"
+        if response.ok:
+            return task_name, response.json()["choices"][0]["message"]["content"]
+        return None, None
     else:
         return None, None
 
@@ -173,7 +178,6 @@ def repl():
         prompt = input("Enter your question: ")
         resp = ask_GPT(prompt)
         print(resp)
-
 
 
 if __name__ == "__main__":

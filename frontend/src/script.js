@@ -29,7 +29,17 @@ async function getResponse(message) {
 async function addResponseMessage(response) {
   resp = response["response"];
   console.log(response);
-  
+
+  if (response["task"] === "undefined" ) {
+    const messageElement = document.createElement('div');
+    messageElement.classList.add('message');
+    messageElement.classList.add(`message-left`);
+    messageElement.innerHTML = `<p>${resp}</p>`;
+    messages.appendChild(messageElement);
+    messages.scrollTop = messages.scrollHeight;
+    return;
+  }
+
   let container = document.createElement('div');
   container.classList.add('image-container');
   
