@@ -118,9 +118,7 @@ def get_location_opinion(task):
     """ get weather status at some fixed location specified in task """
     image, location, response = get_image_by_location(task)
     response = output_opinion_about_locations(location, response, task.get("question"))
-    if response.ok:
-        return dict(model_response=response, image=image, location=location)
-    return None
+    return dict(model_response=response, image=image, location=location)
 
 
 def get_location_recommendation(task):
