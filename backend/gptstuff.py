@@ -34,6 +34,10 @@ def parse_user_input(user_text):
         return json.loads(response.json()["choices"][0]["message"]["content"])
     return None
 
+def image_id_to_location(image_id):
+    image_mapping = json.load(open("webcam_info.json"))
+    return image_mapping[image_id]["location"]
+
 
 def output_opinion_about_locations(location, response):
     print("output_opinion_about_locations", location)
@@ -108,7 +112,7 @@ def get_distances_to_locations(loc):
 def get_location_opinion(task):
     image, location, response = get_relevant_photos(task)	#get relevant camera images		
     response = output_opinion_about_locations(location, response)	#generate response based on images
-    return response, image
+    return dict(model_response=response, image=image, location=location)
 
 #user asked for recommendation of location based on his weather preferences
 def get_location_recommendation(task):
@@ -125,7 +129,7 @@ def get_location_recommendation(task):
     response = get_response(model_prompt)
     if response.ok:
         model_response = response.json()["choices"][0]["message"]["content"]
-    return model_response, image
+    return dict(model_response=model_response, image=image, location=image_id_to_location(image_id))
 
 def ask_GPT(prompt):
     parsed_prompt = parse_user_input(prompt)

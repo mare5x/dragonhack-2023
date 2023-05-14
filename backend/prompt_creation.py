@@ -41,7 +41,7 @@ def parse_input(user_text):
                 task: <"location_recommendation">
                 user_location: <coordinates - tuple> - get coordinates of the user location, in case it is not provided, give coordinates of Ljubljana
                 distance: <maximum distance - int> - from user input determine the maximum distance the user is willing to travel if this information was provided
-                prefered_weather: <weather - string> - from user input determine the weather the user prefers if this information was provided
+                prefered_weather: <weather - string> - from user input determine the weather the user prefers
                 prefered_activity: <activity - string> - from user input determine the activity the user prefers if this information was provided
 
         Third scenario:
@@ -93,8 +93,11 @@ def describe_location_general(task,locations):
     Text will be of format location;weather;distance.
 
     Generate text  that is an answer to the previous user question. Be short.
-    At the location is the user specified weather. The location is at most user specified distance away from the user location.
+    At the location is the user specified weather. 
+    The location is at most user specified distance away from the user location.
+    If distance is None, ignore it.
     If location is None, answer that no location statisfies the user preferences.
+    Otherwise, include the location in your answer.
 
     <{txt}>
     """

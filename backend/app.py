@@ -1,11 +1,11 @@
 from io import BytesIO
 from base64 import encodebytes
 
-from flask import Flask, request
+from flask import Flask, request, send_file, jsonify
 from flask_cors import CORS
 
 from chat import process
-
+from weather_forecast import visualize_forecast
 
 app = Flask(__name__)
 CORS(app)
@@ -15,21 +15,28 @@ CORS(app)
 def hello_world():
     return "<p>Hello, World!</p>"
 
-
 @app.route("/chat", methods=['GET', 'POST'])
 def chat():
     content = request.json
     print("Got:", content)
 
     msg = content["msg"]
-    task, (model_response, image) = process(msg)
-    print("Out:", task, model_response)
+    task, response = process(msg)
 
     # Create a BytesIO object to hold the image data
     img_io = BytesIO()
-    image.save(img_io, format='JPEG')
+    response["image"].save(img_io, format='JPEG')
     img_io.seek(0)
     encoded_img = encodebytes(img_io.getvalue()).decode('ascii')  # encode as base64
+    response["image"] = encoded_img
 
-    return { task: task, "msg": model_response, "img": encoded_img }
+    if "location" in response:
+        forecast_image = visualize_forecast(response["location"])
+        img_io = BytesIO()
+        forecast_image.save(img_io, format='JPEG')
+        img_io.seek(0)
+        response["forecast_image"] = encodebytes(img_io.getvalue()).decode('ascii')  # encode as base64
 
+    print("chat:", task, response)
+
+    return { "task": task, "response": response }

@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://localhost:5000/chat"
+const BACKEND_URL = "http://localhost:5000"
 
 
 const messageInput = document.getElementById('message-input');
@@ -16,7 +16,7 @@ function addUserMessage(text) {
 }
 
 async function getResponse(message) {
-  let r = await fetch(BACKEND_URL, { method: 'POST',
+  let r = await fetch(BACKEND_URL + "/chat", { method: 'POST',
     headers: { 
       'Accept': 'application/json',
       'Content-Type': 'application/json'
@@ -26,23 +26,27 @@ async function getResponse(message) {
   return await r.json();
 }
 
-async function addResponseMessage({ msg, img }) {
-  console.log(msg, img);
+async function addResponseMessage(response) {
+  resp = response["response"];
+  console.log(response);
   
   let container = document.createElement('div');
   container.classList.add('image-container');
   
   const imgElement = document.createElement('img');
-  // imgElement.src = URL.createObjectURL(new Blob([atob(img)], {type: 'image/jpeg'}));
-  imgElement.src = `data:image/jpeg;base64,${img}`;
+  imgElement.src = `data:image/jpeg;base64,${resp["image"]}`;
+
+  const forecastElement = document.createElement('img');
+  forecastElement.src = `data:image/jpeg;base64,${resp["forecast_image"]}`;
 
   const messageElement = document.createElement('div');
   messageElement.classList.add('message');
   messageElement.classList.add(`message-left`);
-  messageElement.innerHTML = `<p>${msg}</p>`;
+  messageElement.innerHTML = `<p>${resp["model_response"]}</p>`;
   
   container.appendChild(messageElement);
   container.appendChild(imgElement);
+  container.appendChild(forecastElement);
 
   messages.appendChild(container);
   messages.scrollTop = messages.scrollHeight;
