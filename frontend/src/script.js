@@ -58,8 +58,41 @@ sendButton.addEventListener('click', async () => {
     return;
   }
   addUserMessage(message);
+  messageInput.value = '';
   let resp = await getResponse(message);
   await addResponseMessage(resp);
 
   messageInput.value = '';
 });
+
+messageInput.addEventListener('keydown', async (event) => {
+  if (event.keyCode === 13) { // Check if enter key was pressed
+    moveImage()
+    const message = messageInput.value.trim();
+    if (message === '') {
+      return;
+    }
+    addUserMessage(message);
+    messageInput.value = ''; // Clear the message input field
+    let resp = await getResponse(message);
+    await addResponseMessage(resp);
+
+  }
+});
+
+function moveImage() {
+  let topPos = 0;
+  let leftPos = 0;
+  const img = document.getElementById('my-image');
+  const interval = setInterval(frame, 20);
+
+  function frame() {
+    if (topPos >= window.innerHeight - img.height) {
+      clearInterval(interval);
+    } else {
+      topPos++;
+      img.style.top = topPos + 'px';
+    }
+  }
+}
+
