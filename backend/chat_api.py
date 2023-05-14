@@ -167,6 +167,14 @@ def ask_GPT(prompt):
         return None, None
 
 
+def repl():
+    while True:
+        prompt = input("Enter your question: ")
+        resp = ask_GPT(prompt)
+        print(resp)
+
+
+
 if __name__ == "__main__":
     test1 = {
         "task": "location_recommendation",
