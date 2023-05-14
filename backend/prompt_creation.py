@@ -57,9 +57,9 @@ def parse_input(user_text):
     return prompt
 
 
-def describe_location(location, response):
+def describe_location(location, response,question):
     # generate format
-    chat_txt = ""
+    chat_txt = question
 
     loc_txt = str(location)+"-"
     for fact in response:
@@ -71,9 +71,10 @@ def describe_location(location, response):
     prompt = f"""
 
     You will be provided with text delimited by < and >.
-    Text will be of format location-fact,...,fact;location-fact,...fact;...
+    Text will be of format question;location-fact,...,fact;location-fact,...fact;...
     facts are based on the location at this moment.
 
+    Facts are answers about locations asked in question.
     Generate text for each location, describe it based on facts about it in this moment. 
     Be short and do no overexaggerate in your answers.
 

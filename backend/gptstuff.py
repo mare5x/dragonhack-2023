@@ -40,9 +40,9 @@ def image_id_to_location(image_id):
     return image_mapping[image_id]["location"]
 
 
-def output_opinion_about_locations(location, response):
+def output_opinion_about_locations(location, response, question):
     print("output_opinion_about_locations", location)
-    prompt = describe_location(location, response)
+    prompt = describe_location(location, response,question)
     print(prompt)
 
     response = get_response(prompt)
@@ -69,7 +69,8 @@ def get_relevant_photos(task):
 
     if image_id is not None:
         image = Image.open(f"webcam_images/{image_id}.jpg")
-        response = vqa(image, task.get("question"), n=2)
+        print("I should count") if "count" in task.get("question")  else 2
+        response = vqa(image,task.get("question"), n=1 if "count" in task.get("question")  else 2)
         return image, location, response
     return None, None, None
 
@@ -112,7 +113,7 @@ def get_distances_to_locations(loc):
 #fuction preforming task of getting weather status at some fixed location
 def get_location_opinion(task):
     image, location, response = get_relevant_photos(task)	#get relevant camera images		
-    response = output_opinion_about_locations(location, response)	#generate response based on images
+    response = output_opinion_about_locations(location, response,task.get("question"))	#generate response based on images
     return dict(model_response=response, image=image, location=location)
 
 #user asked for recommendation of location based on his weather preferences
