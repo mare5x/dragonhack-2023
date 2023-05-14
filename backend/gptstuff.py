@@ -32,7 +32,6 @@ def parse_user_input(user_text):
 
     response = get_response(prompt)
     if response.ok:
-        breakpoint()
         return json.loads(response.json()["choices"][0]["message"]["content"])
     return None
 
