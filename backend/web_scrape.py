@@ -47,7 +47,7 @@ def create_webcam_json():
             webcam_url = LINK_PREFIX + last_shot["path"]
 
             webcam_json[location_id] = {
-                "location": webcam["properties"]["title"],
+                "location": webcam["properties"]["title"].replace("_", " "),
                 "coordinates": webcam["geometry"]["coordinates"],
                 "direction": direction,
                 "region": webcam["properties"]["parent_id"],
@@ -70,7 +70,7 @@ def scrape_one_webcam(link, location, image_id):
 
     coordinates = get_location(location)
     webcam_json = {
-        "location": location,
+        "location": location.replace("_", " "),
         "coordinates": coordinates,
         "direction": "unknown",
         "region": "unknown",
@@ -114,6 +114,6 @@ def download_images():
 
 
 if __name__ == '__main__':
-    # create_webcam_json()
-    # download_images()
+    create_webcam_json()
+    download_images()
     hribi_net_webcams()

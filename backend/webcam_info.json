@@ -7,7 +7,7 @@
         ],
         "direction": "nw",
         "region": "SI_GORISKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/AJDOV-INA_DOLENJE_dir/siwc_20230513-1550_AJDOV-INA_DOLENJE_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/AJDOV-INA_DOLENJE_dir/siwc_20230514-0530_AJDOV-INA_DOLENJE_nw.jpg"
     },
     "METEO-1403_": {
         "location": "Blegoš",
@@ -17,7 +17,7 @@
         ],
         "direction": "ne",
         "region": "SI_GORENJSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/BLEGOS_dir/siwc_20230513-1540_BLEGOS_ne.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/BLEGOS_dir/siwc_20230514-0530_BLEGOS_ne.jpg"
     },
     "METEO-1030_": {
         "location": "Bovec",
@@ -27,7 +27,7 @@
         ],
         "direction": "n",
         "region": "SI_BOVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/BOVEC_dir/siwc_20230513-1540_BOVEC_n.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/BOVEC_dir/siwc_20230514-0530_BOVEC_n.jpg"
     },
     "METEO-1025_": {
         "location": "Celje",
@@ -37,7 +37,17 @@
         ],
         "direction": "n",
         "region": "SI_SAVINJSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/CELJE_MEDLOG_dir/siwc_20230513-1540_CELJE_MEDLOG_n.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/CELJE_MEDLOG_dir/siwc_20230514-0530_CELJE_MEDLOG_n.jpg"
+    },
+    "METEO-1407_": {
+        "location": "Cerkniško jezero",
+        "coordinates": [
+            14.398944,
+            45.722965
+        ],
+        "direction": "s",
+        "region": "SI_NOTRANJSKO-KRASKA_",
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/CERKN-JEZ_dir/siwc_20230514-0530_CERKN-JEZ_s.jpg"
     },
     "METEO-1415_": {
         "location": "Hočko Pohorje",
@@ -47,7 +57,7 @@
         ],
         "direction": "n",
         "region": "SI_PODRAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/HOCKO-POH_dir/siwc_20230513-1540_HOCKO-POH_n.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/HOCKO-POH_dir/siwc_20230514-0530_HOCKO-POH_n.jpg"
     },
     "METEO-1420_": {
         "location": "Jeruzalem",
@@ -57,7 +67,7 @@
         ],
         "direction": "sw",
         "region": "SI_POMURSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/JERUZ-LEM_dir/siwc_20230513-1540_JERUZ-LEM_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/JERUZ-LEM_dir/siwc_20230514-0530_JERUZ-LEM_sw.jpg"
     },
     "METEO-1424_": {
         "location": "Kanin",
@@ -67,7 +77,7 @@
         ],
         "direction": "sw",
         "region": "SI_BOVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KANIN_dir/siwc_20230513-1540_KANIN_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KANIN_dir/siwc_20230514-0530_KANIN_sw.jpg"
     },
     "METEO-1038_": {
         "location": "Koper",
@@ -77,7 +87,7 @@
         ],
         "direction": "e",
         "region": "SI_OBALNO-KRASKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KOPER_MARKOVEC_dir/siwc_20230513-1540_KOPER_MARKOVEC_e.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KOPER_MARKOVEC_dir/siwc_20230514-0530_KOPER_MARKOVEC_e.jpg"
     },
     "METEO-1428_": {
         "location": "Korensko sedlo",
@@ -87,7 +97,7 @@
         ],
         "direction": "s",
         "region": "SI_ZGORNJESAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KOREN-SED_dir/siwc_20230513-1540_KOREN-SED_s.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KOREN-SED_dir/siwc_20230514-0530_KOREN-SED_s.jpg"
     },
     "METEO-1430_": {
         "location": "Kredarica",
@@ -97,7 +107,7 @@
         ],
         "direction": "se",
         "region": "SI_ZGORNJESAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KREDA-ICA_dir/siwc_20230513-1540_KREDA-ICA_se.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KREDA-ICA_dir/siwc_20230514-0530_KREDA-ICA_se.jpg"
     },
     "METEO-1431_": {
         "location": "Krn",
@@ -107,7 +117,7 @@
         ],
         "direction": "n",
         "region": "SI_BOVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KRN_dir/siwc_20230513-1540_KRN_n.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KRN_dir/siwc_20230514-0530_KRN_n.jpg"
     },
     "METEO-1432_": {
         "location": "Krvavec",
@@ -117,7 +127,7 @@
         ],
         "direction": "s",
         "region": "SI_GORENJSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KRVAVEC_dir/siwc_20230513-1540_KRVAVEC_s.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KRVAVEC_dir/siwc_20230514-0530_KRVAVEC_s.jpg"
     },
     "METEO-1434_": {
         "location": "Kum",
@@ -127,7 +137,7 @@
         ],
         "direction": "nw",
         "region": "SI_OSREDNJESLOVENSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KUM_dir/siwc_20230513-1540_KUM_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/KUM_dir/siwc_20230514-0530_KUM_nw.jpg"
     },
     "METEO-1435_": {
         "location": "Lisca",
@@ -137,7 +147,7 @@
         ],
         "direction": "w",
         "region": "SI_SPODNJEPOSAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LISCA_dir/siwc_20230513-1540_LISCA_w.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LISCA_dir/siwc_20230514-0530_LISCA_w.jpg"
     },
     "METEO-1495_": {
         "location": "Ljubljana",
@@ -147,7 +157,7 @@
         ],
         "direction": "nw",
         "region": "SI_OSREDNJESLOVENSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LJUBL-ANA_BEZIGRAD_dir/siwc_20230513-1540_LJUBL-ANA_BEZIGRAD_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LJUBL-ANA_BEZIGRAD_dir/siwc_20230514-0530_LJUBL-ANA_BEZIGRAD_nw.jpg"
     },
     "METEO-1493_": {
         "location": "Letališče Jožeta Pučnika Ljubljana",
@@ -157,7 +167,7 @@
         ],
         "direction": "nw",
         "region": "SI_GORENJSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LJUBL-ANA_BRNIK_dir/siwc_20230513-1540_LJUBL-ANA_BRNIK_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LJUBL-ANA_BRNIK_dir/siwc_20230514-0530_LJUBL-ANA_BRNIK_nw.jpg"
     },
     "METEO-1437_": {
         "location": "Logarska dolina",
@@ -167,7 +177,7 @@
         ],
         "direction": "n",
         "region": "SI_KOROSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LOGAR-DOL_dir/siwc_20230513-1550_LOGAR-DOL_n.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/LOGAR-DOL_dir/siwc_20230514-0530_LOGAR-DOL_n.jpg"
     },
     "METEO-1023_": {
         "location": "Letališče Edvarda Rusjana Maribor",
@@ -177,7 +187,7 @@
         ],
         "direction": "nw",
         "region": "SI_PODRAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MARIBOR_SLIVNICA_dir/siwc_20230513-1540_MARIBOR_SLIVNICA_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MARIBOR_SLIVNICA_dir/siwc_20230514-0530_MARIBOR_SLIVNICA_nw.jpg"
     },
     "METEO-1491_": {
         "location": "Maribor",
@@ -187,7 +197,7 @@
         ],
         "direction": "sw",
         "region": "SI_PODRAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MARIBOR_VRBAN-PLA_dir/siwc_20230513-1550_MARIBOR_VRBAN-PLA_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MARIBOR_VRBAN-PLA_dir/siwc_20230514-0530_MARIBOR_VRBAN-PLA_sw.jpg"
     },
     "METEO-1443_": {
         "location": "Miklavž na Gorjancih",
@@ -197,7 +207,7 @@
         ],
         "direction": "e",
         "region": "SI_SPODNJEPOSAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MIKLAVZ_NA-GOR_dir/siwc_20230513-1550_MIKLAVZ_NA-GOR_e.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MIKLAVZ_NA-GOR_dir/siwc_20230514-0530_MIKLAVZ_NA-GOR_e.jpg"
     },
     "METEO-1444_": {
         "location": "Murska Sobota",
@@ -207,7 +217,7 @@
         ],
         "direction": "nw",
         "region": "SI_POMURSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MURSK-SOB_dir/siwc_20230513-1550_MURSK-SOB_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/MURSK-SOB_dir/siwc_20230514-0530_MURSK-SOB_nw.jpg"
     },
     "METEO-1445_": {
         "location": "Nanos",
@@ -217,7 +227,7 @@
         ],
         "direction": "sw",
         "region": "SI_NOTRANJSKO-KRASKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/NANOS_dir/siwc_20230513-1550_NANOS_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/NANOS_dir/siwc_20230514-0530_NANOS_sw.jpg"
     },
     "METEO-1402_": {
         "location": "Bilje pri Novi Gorici",
@@ -227,7 +237,7 @@
         ],
         "direction": "nw",
         "region": "SI_GORISKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/NOVA-GOR_BILJE_dir/siwc_20230513-1540_NOVA-GOR_BILJE_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/NOVA-GOR_BILJE_dir/siwc_20230514-0530_NOVA-GOR_BILJE_nw.jpg"
     },
     "METEO-1447_": {
         "location": "Novo mesto",
@@ -237,7 +247,7 @@
         ],
         "direction": "w",
         "region": "SI_DOLENJSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/NOVO-MES_dir/siwc_20230513-1550_NOVO-MES_w.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/NOVO-MES_dir/siwc_20230514-0530_NOVO-MES_w.jpg"
     },
     "METEO-3424_": {
         "location": "Otlica",
@@ -247,7 +257,7 @@
         ],
         "direction": "s",
         "region": "SI_GORISKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/OTLICA_dir/siwc_20230513-1550_OTLICA_s.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/OTLICA_dir/siwc_20230514-0530_OTLICA_s.jpg"
     },
     "METEO-1449_": {
         "location": "Pasja ravan",
@@ -257,7 +267,7 @@
         ],
         "direction": "w",
         "region": "SI_GORENJSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PASJA-RAV_dir/siwc_20230513-1550_PASJA-RAV_w.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PASJA-RAV_dir/siwc_20230514-0530_PASJA-RAV_w.jpg"
     },
     "METEO-1450_": {
         "location": "Pavličevo sedlo",
@@ -267,7 +277,7 @@
         ],
         "direction": "ne",
         "region": "SI_KOROSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PAVLI-SED_dir/siwc_20230513-1550_PAVLI-SED_ne.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PAVLI-SED_dir/siwc_20230514-0530_PAVLI-SED_ne.jpg"
     },
     "METEO-1452_": {
         "location": "Planina v Podbočju",
@@ -277,7 +287,7 @@
         ],
         "direction": "e",
         "region": "SI_SPODNJEPOSAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PLANINA_V-POD_dir/siwc_20230513-1550_PLANINA_V-POD_e.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PLANINA_V-POD_dir/siwc_20230514-0530_PLANINA_V-POD_e.jpg"
     },
     "METEO-1008_": {
         "location": "Letališče Portorož",
@@ -287,7 +297,7 @@
         ],
         "direction": "nw",
         "region": "SI_OBALNO-KRASKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PORTOROZ_SECOVLJE_dir/siwc_20230513-1540_PORTOROZ_SECOVLJE_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PORTOROZ_SECOVLJE_dir/siwc_20230514-0530_PORTOROZ_SECOVLJE_nw.jpg"
     },
     "METEO-1455_": {
         "location": "Postojna",
@@ -297,7 +307,7 @@
         ],
         "direction": "w",
         "region": "SI_NOTRANJSKO-KRASKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/POSTOJNA_dir/siwc_20230513-1530_POSTOJNA_w.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/POSTOJNA_dir/siwc_20230514-0520_POSTOJNA_w.jpg"
     },
     "METEO-1456_": {
         "location": "Predel",
@@ -307,7 +317,7 @@
         ],
         "direction": "w",
         "region": "SI_BOVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PREDEL_dir/siwc_20230513-1550_PREDEL_w.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PREDEL_dir/siwc_20230514-0530_PREDEL_w.jpg"
     },
     "METEO-1457_": {
         "location": "Ptuj",
@@ -317,7 +327,7 @@
         ],
         "direction": "sw",
         "region": "SI_PODRAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PTUJ_dir/siwc_20230513-1550_PTUJ_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/PTUJ_dir/siwc_20230514-0530_PTUJ_sw.jpg"
     },
     "METEO-1413_": {
         "location": "Radegunda",
@@ -327,7 +337,7 @@
         ],
         "direction": "sw",
         "region": "SI_SAVINJSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/RADEG-NDA_dir/siwc_20230513-1540_RADEG-NDA_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/RADEG-NDA_dir/siwc_20230514-0530_RADEG-NDA_sw.jpg"
     },
     "METEO-1462_": {
         "location": "Rogla",
@@ -337,7 +347,7 @@
         ],
         "direction": "sw",
         "region": "SI_PODRAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ROGLA_dir/siwc_20230513-1550_ROGLA_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ROGLA_dir/siwc_20230514-0530_ROGLA_sw.jpg"
     },
     "METEO-1463_": {
         "location": "Rudno polje",
@@ -347,7 +357,7 @@
         ],
         "direction": "s",
         "region": "SI_ZGORNJESAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/RUDNO-POL_dir/siwc_20230513-1550_RUDNO-POL_s.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/RUDNO-POL_dir/siwc_20230514-0530_RUDNO-POL_s.jpg"
     },
     "METEO-1482_": {
         "location": "Šebreljski vrh",
@@ -357,7 +367,7 @@
         ],
         "direction": "ne",
         "region": "SI_BOVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SEBRE-VRH_dir/siwc_20230513-1550_SEBRE-VRH_ne.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SEBRE-VRH_dir/siwc_20230514-0530_SEBRE-VRH_ne.jpg"
     },
     "METEO-1466_": {
         "location": "Slavnik",
@@ -367,7 +377,7 @@
         ],
         "direction": "sw",
         "region": "SI_OBALNO-KRASKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SLAVNIK_dir/siwc_20230513-1550_SLAVNIK_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SLAVNIK_dir/siwc_20230514-0530_SLAVNIK_sw.jpg"
     },
     "METEO-1471_": {
         "location": "Šmartno pri Slovenj Gradcu",
@@ -377,7 +387,7 @@
         ],
         "direction": "nw",
         "region": "SI_KOROSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SLOVE-GRA_dir/siwc_20230513-1550_SLOVE-GRA_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SLOVE-GRA_dir/siwc_20230514-0530_SLOVE-GRA_nw.jpg"
     },
     "METEO-1470_": {
         "location": "Sviščaki",
@@ -387,7 +397,7 @@
         ],
         "direction": "ne",
         "region": "SI_NOTRANJSKO-KRASKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SVISCAKI_dir/siwc_20230513-1550_SVISCAKI_ne.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/SVISCAKI_dir/siwc_20230514-0530_SVISCAKI_ne.jpg"
     },
     "METEO-1473_": {
         "location": "Tolmin - Volče",
@@ -397,7 +407,7 @@
         ],
         "direction": "nw",
         "region": "SI_BOVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/TOLMIN_VOLCE_dir/siwc_20230513-1540_TOLMIN_VOLCE_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/TOLMIN_VOLCE_dir/siwc_20230514-0520_TOLMIN_VOLCE_nw.jpg"
     },
     "METEO-1468_": {
         "location": "Trije Kralji na Pohorju",
@@ -407,7 +417,7 @@
         ],
         "direction": "ne",
         "region": "SI_PODRAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/TRIJE-KRA_NA-POH_dir/siwc_20230513-1550_TRIJE-KRA_NA-POH_ne.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/TRIJE-KRA_NA-POH_dir/siwc_20230514-0530_TRIJE-KRA_NA-POH_ne.jpg"
     },
     "METEO-1476_": {
         "location": "Trojane - Limovce",
@@ -417,7 +427,7 @@
         ],
         "direction": "nw",
         "region": "SI_SAVINJSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/TROJANE_LIMOVCE_dir/siwc_20230513-1550_TROJANE_LIMOVCE_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/TROJANE_LIMOVCE_dir/siwc_20230514-0530_TROJANE_LIMOVCE_nw.jpg"
     },
     "METEO-1477_": {
         "location": "Uršlja gora",
@@ -427,7 +437,7 @@
         ],
         "direction": "nw",
         "region": "SI_KOROSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/URSLJ-GOR_dir/siwc_20230513-1540_URSLJ-GOR_nw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/URSLJ-GOR_dir/siwc_20230514-0530_URSLJ-GOR_nw.jpg"
     },
     "METEO-1481_": {
         "location": "Vogel",
@@ -437,7 +447,7 @@
         ],
         "direction": "e",
         "region": "SI_ZGORNJESAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/VOGEL_dir/siwc_20230513-1550_VOGEL_e.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/VOGEL_dir/siwc_20230514-0530_VOGEL_e.jpg"
     },
     "METEO-1483_": {
         "location": "Vrhnika",
@@ -447,7 +457,7 @@
         ],
         "direction": "se",
         "region": "SI_OSREDNJESLOVENSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/VRHNIKA_dir/siwc_20230513-1550_VRHNIKA_se.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/VRHNIKA_dir/siwc_20230514-0530_VRHNIKA_se.jpg"
     },
     "METEO-1484_": {
         "location": "Vršič",
@@ -457,7 +467,7 @@
         ],
         "direction": "ne",
         "region": "SI_ZGORNJESAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/VRSIC_dir/siwc_20230513-1550_VRSIC_ne.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/VRSIC_dir/siwc_20230514-0530_VRSIC_ne.jpg"
     },
     "METEO-1486_": {
         "location": "Zelenica",
@@ -467,7 +477,7 @@
         ],
         "direction": "w",
         "region": "SI_ZGORNJESAVSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ZELENICA_dir/siwc_20230513-1550_ZELENICA_w.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ZELENICA_dir/siwc_20230514-0530_ZELENICA_w.jpg"
     },
     "METEO-1459_": {
         "location": "Zgornja Kapla",
@@ -477,7 +487,7 @@
         ],
         "direction": "e",
         "region": "SI_KOROSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ZGORN-KAP_dir/siwc_20230513-1550_ZGORN-KAP_e.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ZGORN-KAP_dir/siwc_20230514-0530_ZGORN-KAP_e.jpg"
     },
     "METEO-1488_": {
         "location": "Zgornja Sorica",
@@ -487,7 +497,7 @@
         ],
         "direction": "sw",
         "region": "SI_GORENJSKA_",
-        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ZGORN-SOR_dir/siwc_20230513-1550_ZGORN-SOR_sw.jpg"
+        "webcam_url": "https://vreme.arso.gov.si/uploads/probase/www/observ/webcam/ZGORN-SOR_dir/siwc_20230514-0530_ZGORN-SOR_sw.jpg"
     },
     "HRIBI-4356_": {
         "location": "ankaran",
@@ -540,7 +550,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_izola2.jpg?hribi.net"
     },
     "HRIBI-3451_": {
-        "location": "izola_belvedere",
+        "location": "izola belvedere",
         "coordinates": [
             13.6363417,
             45.5303314
@@ -550,7 +560,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_izola3.jpg?hribi.net"
     },
     "HRIBI-4296_": {
-        "location": "kanal_ob_soci",
+        "location": "kanal ob soci",
         "coordinates": [
             13.6339298,
             46.0858687
@@ -560,7 +570,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kanal01.jpg?hribi.net"
     },
     "HRIBI-4326_": {
-        "location": "kanal_ob_soci_kanalski_most",
+        "location": "kanal ob soci kanalski most",
         "coordinates": [
             0,
             0
@@ -570,7 +580,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kanal02.jpg?hribi.net"
     },
     "HRIBI-4335_": {
-        "location": "koper_marina",
+        "location": "koper marina",
         "coordinates": [
             13.727714082278482,
             45.5507635
@@ -580,7 +590,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_koper04.jpg?hribi.net"
     },
     "HRIBI-4268_": {
-        "location": "koper_panoramski_pogled",
+        "location": "koper panoramski pogled",
         "coordinates": [
             0,
             0
@@ -590,7 +600,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_koper02.jpg?hribi.net"
     },
     "HRIBI-3395_": {
-        "location": "krajinski_park_strunjan",
+        "location": "krajinski park strunjan",
         "coordinates": [
             13.616785323913426,
             45.53387335
@@ -600,7 +610,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_strunjan01.jpg?hribi.net"
     },
     "HRIBI-2082_": {
-        "location": "letalisce_portoroz",
+        "location": "letalisce portoroz",
         "coordinates": [
             13.616114921756441,
             45.4724036
@@ -610,7 +620,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_ljpz1.jpg?hribi.net"
     },
     "HRIBI-4329_": {
-        "location": "luka_koper",
+        "location": "luka koper",
         "coordinates": [
             13.74730318883703,
             45.55715375
@@ -620,7 +630,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_koper04.jpg?hribi.net"
     },
     "HRIBI-1996_": {
-        "location": "nova_gorica_-_rolkarski_park",
+        "location": "nova gorica - rolkarski park",
         "coordinates": [
             0,
             0
@@ -640,7 +650,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_piran04.jpg?hribi.net"
     },
     "HRIBI-3259_": {
-        "location": "piran_mandrac",
+        "location": "piran mandrac",
         "coordinates": [
             0,
             0
@@ -650,7 +660,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_piran06.jpg?hribi.net"
     },
     "HRIBI-4323_": {
-        "location": "piran_villa_piranesi",
+        "location": "piran villa piranesi",
         "coordinates": [
             0,
             0
@@ -670,7 +680,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_portoroz04.jpg?hribi.net"
     },
     "HRIBI-3583_": {
-        "location": "portoroz_villa_bellevue",
+        "location": "portoroz villa bellevue",
         "coordinates": [
             13.597378193058436,
             45.51307545
@@ -690,7 +700,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_predjama01.jpg?hribi.net"
     },
     "HRIBI-1725_": {
-        "location": "secoveljske_soline",
+        "location": "secoveljske soline",
         "coordinates": [
             13.605657636063532,
             45.4819282
@@ -710,7 +720,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_solkankajak.jpg?hribi.net"
     },
     "HRIBI-4065_": {
-        "location": "solkan_brv_cez_soco",
+        "location": "solkan brv cez soco",
         "coordinates": [
             0,
             0
@@ -720,7 +730,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_solkan02.jpg?hribi.net"
     },
     "HRIBI-3326_": {
-        "location": "solkanski_most",
+        "location": "solkanski most",
         "coordinates": [
             13.6517773,
             45.9785611
@@ -730,7 +740,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_solkan01.jpg?hribi.net"
     },
     "HRIBI-4225_": {
-        "location": "sempeter_pri_gorici",
+        "location": "sempeter pri gorici",
         "coordinates": [
             13.6398587,
             45.9303401
@@ -740,7 +750,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_sempeter01.jpg?hribi.net"
     },
     "HRIBI-2155_": {
-        "location": "sempeter_pri_gorici",
+        "location": "sempeter pri gorici",
         "coordinates": [
             13.6398587,
             45.9303401
@@ -760,7 +770,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_brda01.jpg?hribi.net"
     },
     "HRIBI-4213_": {
-        "location": "stanjel_ferrarijev_vrt",
+        "location": "stanjel ferrarijev vrt",
         "coordinates": [
             13.847685314273683,
             45.8232859
@@ -770,7 +780,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_stanjel01.jpg?hribi.net"
     },
     "HRIBI-4094_": {
-        "location": "tolminski_lom",
+        "location": "tolminski lom",
         "coordinates": [
             13.7451896,
             46.1272376
@@ -780,7 +790,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_mostnasoci02.jpg?hribi.net"
     },
     "HRIBI-3653_": {
-        "location": "viadukt_crni_kal",
+        "location": "viadukt crni kal",
         "coordinates": [
             13.870312665228319,
             45.5562259
@@ -790,7 +800,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_crnikal01.jpg?hribi.net"
     },
     "HRIBI-2113_": {
-        "location": "blejsko_jezero",
+        "location": "blejsko jezero",
         "coordinates": [
             14.093806871341457,
             46.363913249999996
@@ -810,7 +820,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_bovec.jpg?hribi.net"
     },
     "HRIBI-4354_": {
-        "location": "erjavceva_koca_na_vrsicu",
+        "location": "erjavceva koca na vrsicu",
         "coordinates": [
             0,
             0
@@ -819,8 +829,18 @@
         "region": "unknown",
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_vrsic01.jpg?hribi.net"
     },
+    "HRIBI-1594_": {
+        "location": "humin   gemona del friuli",
+        "coordinates": [
+            0,
+            0
+        ],
+        "direction": "unknown",
+        "region": "unknown",
+        "webcam_url": "https://cdn.whatsupcams.com/snapshot/it_gemona01.jpg?hribi.net"
+    },
     "HRIBI-3352_": {
-        "location": "jezero_jasna",
+        "location": "jezero jasna",
         "coordinates": [
             0,
             0
@@ -830,7 +850,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_jasna01.jpg?hribi.net"
     },
     "HRIBI-4412_": {
-        "location": "kanin_graben",
+        "location": "kanin graben",
         "coordinates": [
             0,
             0
@@ -860,7 +880,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kozjihrbet01.jpg?hribi.net"
     },
     "HRIBI-2184_": {
-        "location": "kranjska_gora_podkoren",
+        "location": "kranjska gora podkoren",
         "coordinates": [
             13.775685689265535,
             46.486854300000005
@@ -870,7 +890,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kranjskagora5.jpg?hribi.net"
     },
     "HRIBI-3349_": {
-        "location": "kranjska_gora_vrtljiva_kamera",
+        "location": "kranjska gora vrtljiva kamera",
         "coordinates": [
             0,
             0
@@ -880,7 +900,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kranjskagora8.jpg?hribi.net"
     },
     "HRIBI-4311_": {
-        "location": "log_pod_mangartom",
+        "location": "log pod mangartom",
         "coordinates": [
             13.6035806,
             46.4066861
@@ -890,7 +910,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_logmangart02.jpg?hribi.net"
     },
     "HRIBI-1677_": {
-        "location": "most_na_soci",
+        "location": "most na soci",
         "coordinates": [
             13.7410956,
             46.1531057
@@ -920,7 +940,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kanin04.jpg?hribi.net"
     },
     "HRIBI-288_": {
-        "location": "soriska_planina",
+        "location": "soriska planina",
         "coordinates": [
             14.007876038249055,
             46.235787
@@ -930,7 +950,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_sorica04.jpg?hribi.net"
     },
     "HRIBI-1881_": {
-        "location": "stol_kobariski",
+        "location": "stol kobariski",
         "coordinates": [
             0,
             0
@@ -950,7 +970,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_tolmin.jpg?hribi.net"
     },
     "HRIBI-482_": {
-        "location": "trbiz_tarvisio",
+        "location": "trbiz tarvisio",
         "coordinates": [
             13.5794473,
             46.4265905
@@ -1010,7 +1030,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_krvavec3.jpg?hribi.net"
     },
     "HRIBI-3327_": {
-        "location": "krvavec_vrtljiva_kamera",
+        "location": "krvavec vrtljiva kamera",
         "coordinates": [
             0,
             0
@@ -1020,7 +1040,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_krvavec7.jpg?hribi.net"
     },
     "HRIBI-12_": {
-        "location": "velika_planina_zeleni_rob",
+        "location": "velika planina zeleni rob",
         "coordinates": [
             14.6403285,
             46.2995737
@@ -1030,7 +1050,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_velikaplanina01.jpg?hribi.net"
     },
     "HRIBI-2133_": {
-        "location": "veliki_zvoh",
+        "location": "veliki zvoh",
         "coordinates": [
             14.5415901,
             46.3088586
@@ -1040,7 +1060,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_krvavec6.jpg?hribi.net"
     },
     "HRIBI-4262_": {
-        "location": "belska_planina_svecica",
+        "location": "belska planina svecica",
         "coordinates": [
             14.1096351,
             46.4738901
@@ -1060,7 +1080,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_bukovnik.jpg?hribi.net"
     },
     "HRIBI-3458_": {
-        "location": "dovje_apartmaji_triglav",
+        "location": "dovje apartmaji triglav",
         "coordinates": [
             0,
             0
@@ -1080,7 +1100,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_maribor03.jpg?hribi.net"
     },
     "HRIBI-14_": {
-        "location": "mariborsko_pohorje",
+        "location": "mariborsko pohorje",
         "coordinates": [
             15.5782311,
             46.5153389
@@ -1100,7 +1120,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_rogla1.jpg?hribi.net"
     },
     "HRIBI-2179_": {
-        "location": "rogla_hotel_natura",
+        "location": "rogla hotel natura",
         "coordinates": [
             0,
             0
@@ -1110,7 +1130,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_rogla9.jpg?hribi.net"
     },
     "HRIBI-1860_": {
-        "location": "rogla_masin_zaga",
+        "location": "rogla masin zaga",
         "coordinates": [
             0,
             0
@@ -1120,7 +1140,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_rogla8.jpg?hribi.net"
     },
     "HRIBI-4192_": {
-        "location": "rogla_ostruscica",
+        "location": "rogla ostruscica",
         "coordinates": [
             0,
             0
@@ -1130,7 +1150,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_rogla10.jpg?hribi.net"
     },
     "HRIBI-4294_": {
-        "location": "sveti_trije_kralji_hotel_jakec",
+        "location": "sveti trije kralji hotel jakec",
         "coordinates": [
             0,
             0
@@ -1140,7 +1160,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_trijekralji02.jpg?hribi.net"
     },
     "HRIBI-4331_": {
-        "location": "ljubljana_zivalski_vrt_-_levi",
+        "location": "ljubljana zivalski vrt - levi",
         "coordinates": [
             0,
             0
@@ -1150,7 +1170,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_ljzoo10.jpg?hribi.net"
     },
     "HRIBI-1702_": {
-        "location": "ljubljana_-_zivalski_vrt",
+        "location": "ljubljana - zivalski vrt",
         "coordinates": [
             14.472194370665854,
             46.055298199999996
@@ -1180,7 +1200,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_ljgolf.jpg?hribi.net"
     },
     "HRIBI-2165_": {
-        "location": "zbiljsko_jezero",
+        "location": "zbiljsko jezero",
         "coordinates": [
             14.419781046119601,
             46.156554400000005
@@ -1190,7 +1210,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_medvode02.jpg?hribi.net"
     },
     "HRIBI-3347_": {
-        "location": "brezice_he_brezice",
+        "location": "brezice he brezice",
         "coordinates": [
             15.58820373005155,
             45.899031050000005
@@ -1200,7 +1220,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_hse4_2.jpg?hribi.net"
     },
     "HRIBI-4271_": {
-        "location": "brezice_reka_sava",
+        "location": "brezice reka sava",
         "coordinates": [
             0,
             0
@@ -1220,7 +1240,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_celje02.jpg?hribi.net"
     },
     "HRIBI-174_": {
-        "location": "celjska_koca",
+        "location": "celjska koca",
         "coordinates": [
             15.278161752009435,
             46.19300775
@@ -1230,7 +1250,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_celjskoca01.jpg?hribi.net"
     },
     "HRIBI-4303_": {
-        "location": "naravni_park_jovsi_brezice",
+        "location": "naravni park jovsi brezice",
         "coordinates": [
             0,
             0
@@ -1240,7 +1260,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_brezice3.jpg?hribi.net"
     },
     "HRIBI-4234_": {
-        "location": "rudnisko_jezero",
+        "location": "rudnisko jezero",
         "coordinates": [
             14.87028872156003,
             45.648699300000004
@@ -1250,7 +1270,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_kocevje02.jpg?hribi.net"
     },
     "HRIBI-2047_": {
-        "location": "sveti_vid_sentviska_gora",
+        "location": "sveti vid sentviska gora",
         "coordinates": [
             0,
             0
@@ -1270,7 +1290,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_drazgose01.jpg?hribi.net"
     },
     "HRIBI-4302_": {
-        "location": "gorenja_vas",
+        "location": "gorenja vas",
         "coordinates": [
             14.8076763,
             45.9186462
@@ -1280,7 +1300,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_gorenjavas01.jpg?hribi.net"
     },
     "HRIBI-3611_": {
-        "location": "idrija_mestni_trg",
+        "location": "idrija mestni trg",
         "coordinates": [
             14.0210924,
             46.001007
@@ -1290,7 +1310,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_idrija01.jpg?hribi.net"
     },
     "HRIBI-1813_": {
-        "location": "koca_na_starem_vrhu",
+        "location": "koca na starem vrhu",
         "coordinates": [
             0,
             0
@@ -1320,7 +1340,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_rudno02.jpg?hribi.net"
     },
     "HRIBI-63_": {
-        "location": "smucisce_cerkno",
+        "location": "smucisce cerkno",
         "coordinates": [
             14.049674904855099,
             46.154911999999996
@@ -1330,7 +1350,7 @@
         "webcam_url": "https://cdn.whatsupcams.com/snapshot/si_cerknobrdo.jpg?hribi.net"
     },
     "HRIBI-273_": {
-        "location": "stari_vrh",
+        "location": "stari vrh",
         "coordinates": [
             15.1505721,
             45.7436398
