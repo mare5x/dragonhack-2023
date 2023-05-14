@@ -29,6 +29,7 @@ def parse_user_input(user_input):
 
     response = get_response(prompt)
     if response.ok:
+        print(response.json())
         return json.loads(response.json()["choices"][0]["message"]["content"])
     return None
 
@@ -127,7 +128,6 @@ def get_distances_to_locations(coordinates):
 
 def get_location_opinion(task):
     """ get weather status at some fixed location specified in task """
-    breakpoint()
     image, location, response = get_image_by_location(task)
     response = output_opinion_about_locations(location, response, task.get("question"))
     return dict(model_response=response, image=image, location=location)
@@ -136,7 +136,7 @@ def get_location_opinion(task):
 def get_location_recommendation(task):
     """ returns recommendation of location based on users weather preferences specified in task """
     relevant_photos = get_relevant_photos_preferred_weather(task)
-    if task.get("distance") is not None:
+    if task.get("distance") is not None and task.get("distance") > 0:
         distances = get_distances_to_locations(task.get("user_location"))
         good_locations = list(map(lambda x: x[0], filter(lambda x: x[1] < task.get("distance"),
                                                          distances)))

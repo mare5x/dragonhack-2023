@@ -1,7 +1,7 @@
 from io import BytesIO
 from base64 import encodebytes
 
-from flask import Flask, request, send_file, jsonify
+from flask import Flask, request
 from flask_cors import CORS
 
 from chat_api import ask_GPT
