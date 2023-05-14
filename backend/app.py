@@ -39,4 +39,4 @@ def chat():
 
     # print("chat:", task, response)
 
-    return { "task": task, "response": response }
+    return {"task": task, "response": response}

@@ -24,7 +24,8 @@ def vqa(image: Image, question: str, n=5) -> list:
 
 
 def demo():
-    """ Demo of the VQA model, using the webcam images and question "What is the weather like?". """
+    """ Demo of the VQA MODEL_NAME, using the webcam images and question
+    "What is the weather like?". """
     webcam_data = json.load(open("webcam_info.json"))
 
     for webcam_id, webcam in webcam_data.items():

@@ -1,9 +1,10 @@
-from gptstuff import ask_GPT
+from chat_api import ask_GPT
 
 
 def process(msg: str) -> tuple:
     task, response = ask_GPT(msg)
     return task, response
+
 
 def repl():
     while True:
