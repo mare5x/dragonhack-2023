@@ -39,7 +39,6 @@ def weather_visualization(coordinates,city):
     (lat,lon) = coordinates
     forecast_url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&hourly=temperature_2m,precipitation,weathercode"
     
-    #report_current = requests.get(current_url)
     report_forecast = (requests.get(forecast_url)).json()
 
     now = datetime.datetime.now()
