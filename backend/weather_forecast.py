@@ -19,6 +19,7 @@ def classify_rainfall(mm_per_hour):
    
 
 async def weather_visualization(city):
+    city = list(city.split(" "))[0]
     async with python_weather.Client(unit=python_weather.METRIC) as client:
         # fetch a weather forecast from specified location
         weather = await client.get(city, locale="sl_SI")
