@@ -1,3 +1,4 @@
+import json
 import matplotlib.pyplot as plt
 from PIL import Image
 import requests
@@ -72,6 +73,7 @@ def weather_visualization(coordinates, city):
     # visualize the current forecast with matplotlib
     fig, ax1 = plt.subplots()
     ax2 = ax1.twinx()
+    
 
     ax1.set_xlabel('Time')
     ax1.set_ylabel('Precipitation')
@@ -101,8 +103,3 @@ def weather_visualization(coordinates, city):
     plt.savefig("weather_forecast.jpg")
     image = Image.open("weather_forecast.jpg")
     return image
-
-
-if __name__ == '__main__':
-    weather_visualization([46.357698, 13.440051], "Kanin")
-  
