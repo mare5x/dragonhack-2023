@@ -4,7 +4,10 @@ DragonHack 2023 submission by Team LeMoNS (Leon, Marko, Nace, Sara).
 
 ## About
 
-> Our chatbot helps users pick the best spot for a trip based on real-time webcam data. It provides weather forecasts, webcam images and answers using Visual-Question Answering. It can provide data for a specific location (_How many boats are in Koper Marina?_) or make recommendations fitting user requirements (_Where is there snow?_).
+Our chatbot helps users pick the best spot for a trip based on real-time webcam data. It provides weather forecasts, webcam images and answers using Visual-Question Answering. It can provide data for a specific location (_How many boats are in Koper Marina?_) or make recommendations fitting user requirements (_Show me snowy places?_).
+
+![Chatbot demo](./demo/koper_raining.png)
+
 
 ### Technical details
 
