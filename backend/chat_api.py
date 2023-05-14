@@ -73,8 +73,19 @@ def get_image_by_location(task):
 
     if image_id is not None:
         image = Image.open(f"webcam_images/{image_id}.jpg")
-        print("I should count") if "count" in task.get("question") else 2
-        response = vqa(image, task.get("question"), n=1 if "count" in task.get("question") else 2)
+        if "count" in task.get("question")  or "many" in task.get("question"):
+            n = 1
+            print("I SHOULD COUNT")
+            #remove name of location from question
+            if task.get("location") in task.get("question"):
+                question = task.get("question").replace(task.get("location"),"")
+            else:
+                question = task.get("question")
+        else:
+            n = 2
+            question = task.get("question")
+        print(question)
+        response = vqa(image, question, n)
         return image, location, response
     return None, None, None
 
@@ -154,7 +165,15 @@ def ask_GPT(prompt):
     elif task_name == "other":
         return task_name, parsed_prompt.get("answer")
     else:
-        return None  # TODO
+        return None, None
+
+
+def repl():
+    while True:
+        prompt = input("Enter your question: ")
+        resp = ask_GPT(prompt)
+        print(resp)
+
 
 
 if __name__ == "__main__":
@@ -165,6 +184,7 @@ if __name__ == "__main__":
         "preferred_activity": "swimming"
     }
     
-    print(ask_GPT("Where is it sunny?"))
+    print(ask_GPT("Sunny mountain location?"))
+    
     # print(parse_user_input("What is the weather like in Čmaribor?"))
     # print(get_location_recommendation(test1))

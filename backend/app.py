@@ -4,7 +4,7 @@ from base64 import encodebytes
 from flask import Flask, request, send_file, jsonify
 from flask_cors import CORS
 
-from chat import process
+from chat_api import ask_GPT
 from weather_forecast import visualize_forecast
 
 app = Flask(__name__)
@@ -15,13 +15,14 @@ CORS(app)
 def hello_world():
     return "<p>Hello, World!</p>"
 
+
 @app.route("/chat", methods=['GET', 'POST'])
 def chat():
     content = request.json
     print("Got:", content)
 
     msg = content["msg"]
-    task, response = process(msg)
+    task, response = ask_GPT(msg)
 
     # Create a BytesIO object to hold the image data
     img_io = BytesIO()
@@ -36,7 +37,5 @@ def chat():
         forecast_image.save(img_io, format='JPEG')
         img_io.seek(0)
         response["forecast_image"] = encodebytes(img_io.getvalue()).decode('ascii')  # encode as base64
-
-    # print("chat:", task, response)
 
     return {"task": task, "response": response}
