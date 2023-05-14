@@ -164,7 +164,15 @@ def ask_GPT(prompt):
     elif task_name == "other":
         return task_name, parsed_prompt.get("answer")
     else:
-        return None  # TODO
+        return None, None
+
+
+def repl():
+    while True:
+        prompt = input("Enter your question: ")
+        resp = ask_GPT(prompt)
+        print(resp)
+
 
 
 if __name__ == "__main__":
