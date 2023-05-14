@@ -32,6 +32,7 @@ def parse_user_input(user_text):
 
     response = get_response(prompt)
     if response.ok:
+        breakpoint()
         return json.loads(response.json()["choices"][0]["message"]["content"])
     return None
 
@@ -146,6 +147,7 @@ def ask_GPT(prompt):
         return task_name, parsed_prompt.get("answer")
     else:
         return None  # TODO
+
 
 if __name__ == "__main__":
     test1 ={ 
