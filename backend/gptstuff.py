@@ -18,6 +18,7 @@ def get_response(prompt):
     # specification of all options: https://platform.openai.com/docs/api-reference/chat/create
     json_prompt = {
         "model": model,
+        "temperature": 0,
         "messages": [{"role": "user", "content": prompt}]
     }
     response = requests.post("https://openai-api.meetings.bio/api/openai/chat/completions",
@@ -154,6 +155,6 @@ if __name__ == "__main__":
             "prefered_activity": "swimming"
         }
     
-    #print(parse_user_input("Koper"))
+    print(ask_GPT("Where is it sunny?"))
     #print(parse_user_input("What is the weather like in Čmaribor?"))
     #print(get_location_recommendation(test1))
