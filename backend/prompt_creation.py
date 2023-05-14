@@ -26,7 +26,7 @@ def parse_input(user_text):
                 task: <"location_prediction">
                 location: <location - string> - get the location the user is refering to. 
                 user_location: <coordinates - tuple> - latitute and longitude coordinates of the location that we write in the location 
-                                                        field. If you cannot find the coordinates, give an output like in the zeroth scenario.
+                                                        field. If you cannot find the coordinates, give an output like in the zeroth scenario. Example: (46.0569, 14.5058)
                 question: <generated question - string> - store a rewritten question that describes what information the user is 
                         asking about some location. You should reference the location as the picture. If the input is not a question
                         you should output "Describe the surroundings".
