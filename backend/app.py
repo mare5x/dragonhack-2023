@@ -35,6 +35,7 @@ def chat():
 
     if "location" in response:
         coords = location_to_coordinates(response["location"])
+        print(coords)
         forecast_image = weather_visualization(coords, response["location"])
         img_io = BytesIO()
         forecast_image.save(img_io, format='JPEG')
