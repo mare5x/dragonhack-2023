@@ -1,6 +1,5 @@
 import python_weather
 import json
-import asyncio
 import matplotlib.pyplot as plt
 from PIL import Image
 import requests
@@ -36,7 +35,7 @@ def WMOcode(num):
 
 
 
-async def weather_visualization(coordinates,city):
+def weather_visualization(coordinates,city):
     
     (lat,lon) = coordinates
 
@@ -91,14 +90,7 @@ async def weather_visualization(coordinates,city):
     image = Image.open("weather_forecast.jpg")
     return image
 
-        
-def visualize_forecast(coordinates,city):
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
-    coroutine = weather_visualization(coordinates,city)
-    return loop.run_until_complete(coroutine)
-
 
 if __name__ == '__main__':
-    visualize_forecast([46.357698, 13.440051],"Kanin")
+    weather_visualization([46.357698, 13.440051],"Kanin")
   
