@@ -89,15 +89,23 @@ def describe_location_general(task,locations):
     else:
         txt = "None"
 
-    txt += ";"+task.get("prefered_weather")+";"+str(task.get("distance"))
+    txt += ";"+task.get("prefered_weather")
+    if task.get("distance") != None:
+        text += ";"+str(task.get("distance"))
     prompt = f"""
 
     You will be provided with text delimited by < and >.
-    Text will be of format location;weather;distance.
+    Text will be of format  locaton;weather or location;weather;distance.
 
     Generate text  that is an answer to the previous user question. Be short.
-    At the location is the user specified weather. The location is at most user specified distance away from the user location.
     If location is None, answer that no location statisfies the user preferences.
+    The location is at most user specified distance away from the user location.
+    At the location is the user specified weather.
+    Do not mention that location is None.
+
+    In case text also includes distance, include it in your answer. Location is at most distance km away from user.
+
+    
 
     <{txt}>
     """

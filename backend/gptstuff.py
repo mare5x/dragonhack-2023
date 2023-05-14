@@ -136,15 +136,20 @@ def ask_GPT(prompt):
         return task_name, get_location_opinion(parsed_prompt)
     elif task_name == "location_recommendation":
         return task_name, get_location_recommendation(parsed_prompt)
+    elif task_name == "nonvalid":
+        return task_name, parsed_prompt.get("answer")
     else:
         return None  # TODO
 
 if __name__ == "__main__":
     test1 ={ 
             "task": "location_recommendation",
-            "user_location": [45.8358, 14.9217],
-            "distance": 120,
+            "user_location": [46.0569, 14.5058],
+            #"distance": 120,
             "prefered_weather": "sunny",
             "prefered_activity": "swimming"
         }
-    print(get_location_recommendation(test1))
+    
+    #print(parse_user_input("Koper"))
+    #print(parse_user_input("What is the weather like in Čmaribor?"))
+    #print(get_location_recommendation(test1))
