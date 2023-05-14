@@ -14,8 +14,9 @@ def parse_input(user_text):
     After determining the scenario, follow the instructions for the chosen scenario.
 
 
-    You should only return a JSON object. What the JSON object looks like depends on our scenario. 
-
+    You should only return a JSON object. What the JSON object looks like depends on our scenario.
+    The JSON object should be well-formed, for example: {{ "key1": "string1", "key2": [1, 2] }}
+    
         Zeroth scenario:
             You only need to return JSON. Use the following format:	
                 task: <"undefined">
