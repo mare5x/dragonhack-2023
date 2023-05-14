@@ -175,7 +175,7 @@ if __name__ == "__main__":
         "preferred_activity": "swimming"
     }
     
-    print(ask_GPT("Count the number of boats in piran mandrc?"))
+    print(ask_GPT("Sunny mountain location?"))
     
     # print(parse_user_input("What is the weather like in Čmaribor?"))
     # print(get_location_recommendation(test1))
